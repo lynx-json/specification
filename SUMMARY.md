@@ -37,4 +37,3 @@
 * [Appendix](appendix/readme.md)
    * [Realm URI](appendix/realm.md)
 * [References](references/README.md)
-
