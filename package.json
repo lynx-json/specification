@@ -1,0 +1,17 @@
+{
+  "name": "specification",
+  "version": "0.0.0",
+  "description": "The media type specification",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^0.1.1",
+    "gulp": "^3.8.5",
+    "gulp-run": "^1.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
