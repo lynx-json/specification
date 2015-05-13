@@ -10,7 +10,8 @@
     "gulp-run": "^1.5.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook serve"
   },
   "author": "",
   "license": "ISC"
