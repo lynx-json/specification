@@ -4,7 +4,7 @@ An `image` hint describes a value that should be interpreted as an embedded imag
 
 ## Format Rules
 
-- MUST comply with the rules defined for [conent](#content).
+- MUST comply with the rules defined for [content](#content).
 - MUST precede the `content` hint.
 - MAY have a `height` property whose value MUST be a number representing the natural height of the image in pixels.
 - MAY have a `width` property whose value MUST be a number representing the natural width of the image in pixels.
@@ -32,4 +32,5 @@ An `image` hint describes a value that should be interpreted as an embedded imag
 
 ## User Agent Rules
 
-MUST comply with the rules defined for [content](#content).
+- MUST comply with the rules defined for [content](#content).
+- If the user agent resizes the image, it MUST maintain the natural aspect ratio and it SHOULD provide a control to view the image in its natural size.
