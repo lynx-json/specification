@@ -53,9 +53,9 @@ The `content` parameter indicates whether the body of a message contains a value
 #### Example
 
 ```
-GET /spec/movie HTTP/1.1
-Accept: application/lynx+json;content=spec
-
+HTTP/1.1 200 OK
+Content-Type: application/lynx+json;content=spec
+...
 ```
 
 ### spec
@@ -70,16 +70,16 @@ The `spec` parameter describes the value in the body of a message.
 
 ```
 HTTP/1.1 200 OK
-Content-Type: application/lynx+json;spec="{ "hints": ["text"] }"
+Content-Type: application/lynx+json;spec="{ "hints": ["object"], "children": [ { "name": "title", "hints": ["title", "text"] } ] }"
 
-"Hello, World!"
+{ "title": "Hello, World!" }
 ```
 
 ```
 HTTP/1.1 200 OK
 Content-Type: application/lynx+json;spec="http://example.com/specs/text"
 
-"Hello, World!"
+{ "title": "Hello, World!" }
 ```
 
 ### baseURI
@@ -90,9 +90,9 @@ Content-Type: application/lynx+json;spec="http://example.com/specs/text"
 
 ```
 HTTP/1.1 200 OK
-Content-Type: application/lynx+json;baseURI="http://example.com/";spec="./specs/text"
+Content-Type: application/lynx+json;baseURI="http://example.com/";spec="./specs/array-of-text"
 
-"Hello, World!"
+[ "Hello, World!" ]
 ```
 
 ### realm

@@ -1,6 +1,6 @@
 # Objects
 
-This section extends a JSON object to provide metadata so that a user agent may effectively display the object to a user.
+This section constrains a JSON object to provide metadata so that a user agent may effectively display the object to a user.
 
 ## Format Rules
 

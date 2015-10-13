@@ -33,7 +33,5 @@
 * [Extensions](extending_documents/README.md)
    * [Hint Extensions](extending_documents/extending_hints.md)
    * [Specification Property Extensions](extending_documents/extending_specifications.md)
-   * [Article](extending_documents/article)
-* [Appendix](appendix/readme.md)
-   * [Realm URI](appendix/realm.md)
+* [Appendix A - Realm URI](appendix/realm.md)
 * [References](references/README.md)
