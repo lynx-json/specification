@@ -1,16 +1,16 @@
 # Specifications
 
-A specification describes a JSON value.
+A specification is a JSON object that describes a JSON value.
 
 ## Format Rules
 
-### Specification
+### Specification Object
 
 MAY have any number of properties. This document defines some properties (e.g. `hints`, `children`, etc.). Authors may also define [extended properties](#extending-specifications).
 
 ### Specification URL
 
-A specification URL is used to refer to a remote specification. The value MUST be an [absolute or relative URL](#url) and MUST NOT contain a [URI fragment](#uri).
+A specification URL is a reference to a remote specification object. The value MUST be an [absolute or relative URL](#url) and MUST NOT contain a [URI fragment](#uri).
 
 ## Examples
 
@@ -18,7 +18,9 @@ A specification URL is used to refer to a remote specification. The value MUST b
 
 ```json
 {
-  "title": "Fletch",
+  "value": {
+    "title": "Fletch"
+  },
   "spec": {
     "hints": [ "object" ],
     "children": [
@@ -35,14 +37,16 @@ A specification URL is used to refer to a remote specification. The value MUST b
 
 ```json
 {
-  "title": "Fletch",
+  "value": {
+    "title": "Fletch"
+  },
   "spec": "http://www.example.com/specs/object"
 }
 ```
 
 ## User Agent Rules
 
-If the `spec` property value is a specification URL, then the user agent MUST fetch the remote specification using the default retrieval action for the protocol (e.g. GET for HTTP). The media type to be used for retrieval is `application/lynx+json;content=spec`.
+If the `spec` property value is a specification URL, then the user agent MUST fetch the remote specification object using the default retrieval action for the protocol (e.g. GET for HTTP).
 
 ## User Agent Considerations
 
