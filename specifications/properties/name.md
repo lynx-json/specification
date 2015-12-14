@@ -1,5 +1,11 @@
 # Name Specification Property
 
+## Name
+
+http://lynx-json.org/name
+
+## Meaning
+
 The `name` property of a specification identifies the property value that the specification describes.
 
 ## Format Rules

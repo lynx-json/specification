@@ -1,5 +1,11 @@
 # Visibility Specification Property
 
+## Name
+
+http://lynx-json.org/visibility
+
+## Meaning
+
 The `visibility` property of a specification describes how a value should or should not be displayed to the user.
 
 ## Format Rules

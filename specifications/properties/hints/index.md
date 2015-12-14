@@ -1,5 +1,11 @@
 # Hints Specification Property
 
+## Name
+
+http://lynx-json.org/hints
+
+## Meaning
+
 The `hints` property of a specification describes the meaning of a value.
 
 ## Format Rules
