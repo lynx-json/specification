@@ -6,9 +6,7 @@ http://lynx-json.org/validation
 
 ## Meaning
 
-The `validation` property of a specification is used to indicate that a value has validation state and identify related content that should be displayed when the validation state changes. The `validation` property 
-
-The `validation` property of a specification is used to express constraints on an input value, or input values, and identify content that should be displayed when a constraint or a set of constraints are in a certain state.
+The `validation` property of a specification is used to indicate that a value has validation state and identify related content that should be displayed when the validation state changes. The `validation` property is also used to express constraints on an input value, or input values, and identify content that should be displayed when a constraint is, or when a set of constraints are, in a certain state.
 
 ## Format Rules
 
