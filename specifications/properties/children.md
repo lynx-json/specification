@@ -1,4 +1,4 @@
-# Children
+# Children Specification Property
 
 The `children` property is used to provide a specification, or an array of specifications, to describe the values in a container value (object or array). If the `children` property is an array of specifications, then it also describes the order of the items in the container.
 

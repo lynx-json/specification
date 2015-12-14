@@ -1,4 +1,4 @@
-# Name
+# Name Specification Property
 
 The `name` property of a specification identifies the property value that the specification describes.
 

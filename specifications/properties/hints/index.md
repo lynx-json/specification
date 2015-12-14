@@ -1,4 +1,4 @@
-# Hints
+# Hints Specification Property
 
 The `hints` property of a specification describes the meaning of a value.
 

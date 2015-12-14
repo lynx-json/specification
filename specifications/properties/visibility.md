@@ -1,4 +1,4 @@
-# Visibility
+# Visibility Specification Property
 
 The `visibility` property of a specification describes how a value should or should not be displayed to the user.
 
