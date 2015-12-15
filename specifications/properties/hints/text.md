@@ -37,18 +37,18 @@ The value MAY be a simple value or `undefined`.
 }
 ```
 
+## Authoring Rules
+
+None
+
 ## Authoring Considerations
 
 None
 
-## Authoring Rules
+## User Agent Rules
 
 None
 
 ## User Agent Considerations
 
 A user agent must anticipate that a value described by a `text` hint may contain any length and combination of characters, including line breaks.
-
-## User Agent Rules
-
-None

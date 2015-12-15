@@ -17,7 +17,6 @@ A `label` hint describes a value that represents a distinguishing name for anoth
 
 - `title`
 
-
 ## Format Rules
 
 None
@@ -52,11 +51,15 @@ None
 }
 ```
 
+## Authoring Rules
+
+None
+
 ## Authoring Considerations
 
 - Consider labeling content to help the user to identify the content.
 
-## Authoring Rules
+## User Agent Rules
 
 None
 
@@ -64,7 +67,3 @@ None
 
 - Consider displaying `label` content more prominently.
 - Consider allowing users to select or navigate to content based on its relationship to a label.
-
-## User Agent Rules
-
-None

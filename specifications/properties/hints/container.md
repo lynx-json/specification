@@ -58,11 +58,11 @@ The value MAY be a container value or `undefined`.
 }
 ```
 
-## Authoring Considerations
+## Authoring Rules
 
 None
 
-## Authoring Rules
+## Authoring Considerations
 
 None
 
