@@ -26,7 +26,8 @@ If the value is present, it must comply with the following rules:
 If the value has an `src` property:
 
 - the `src` property MUST be a valid [URI](#uri).
-- the value MUST NOT have `data`, `type`, or `encoding` properties.
+- the value MAY have a `type` property whose value must be a valid [media type name](#media-type-name) to indicate the expected media type of the content.
+- the value MUST NOT have `data` or `encoding` properties.
 
 ### `data` present
 
