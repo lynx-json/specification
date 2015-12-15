@@ -20,7 +20,7 @@ None
 
 If the value is present, it must comply with the following rules:
 
-- MUST comply with the format rules for the [`content` hint](#content-hint).
+- MUST comply with the [`content` hint](#content-hint) format rules.
 - MAY have a `height` property whose value MUST be a number representing the natural height of the image in pixels.
 - MAY have a `width` property whose value MUST be a number representing the natural width of the image in pixels.
 
