@@ -22,7 +22,7 @@ If the value is present, it must comply with the following rules:
 
 - MUST be an object.
 - MUST have an `href` property whose value is a valid [URI](#uri).
-- the value MAY have a `type` property whose value must be a valid [media type name](#media-type-name) to indicate the expected media type of the content.
+- MAY have a `type` property whose value must be a valid [media type name](#media-type-name) to indicate the expected media type of the content.
 - MAY contain other properties.
 
 ## Examples
