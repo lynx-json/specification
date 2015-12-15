@@ -24,7 +24,7 @@ replacing the `value` property with all of the properties of the object.
 
 ## Examples
 
-### Value
+### Value/Spec Pair
 
 ```json
 {
@@ -32,6 +32,16 @@ replacing the `value` property with all of the properties of the object.
     "title": "Groundhog Day",
     "rating": 8.1
   },
+  "spec": "http://www.example.com/specs/movie-summary"
+}
+```
+
+### Condensed Value/Spec Pair
+
+```json
+{
+  "title": "Groundhog Day",
+  "rating": 8.1,
   "spec": "http://www.example.com/specs/movie-summary"
 }
 ```
@@ -44,16 +54,6 @@ replacing the `value` property with all of the properties of the object.
   "realm": "http://www.example.com/movies/titles",
   "value": "What About Bob?",
   "spec": "/specs/movies/title"
-}
-```
-
-### Condensed Object Value
-
-```json
-{
-  "title": "Groundhog Day",
-  "rating": 8.1,
-  "spec": "http://www.example.com/specs/movie-summary"
 }
 ```
 
