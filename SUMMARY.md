@@ -14,6 +14,7 @@
       * [Link](specifications/properties/hints/link.md)
       * [Submit](specifications/properties/hints/submit.md)
       * [Form](specifications/properties/hints/form.md)
+      * [Image](specifications/properties/hints/image.md)
     * [Children](specifications/properties/children.md)
     * [Labeled By](specifications/properties/labeled-by.md)
     * [Input](specifications/properties/input.md)
