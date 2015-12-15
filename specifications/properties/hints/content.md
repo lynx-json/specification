@@ -12,6 +12,10 @@ A `content` hint describes a value that contains or references content that is t
 
 None
 
+## Synonyms
+
+None
+
 ## Format Rules
 
 If the value is present, it must comply with the following rules:

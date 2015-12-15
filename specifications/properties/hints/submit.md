@@ -24,6 +24,7 @@ If the value is present, it must comply with the following rules:
 - MUST have an `action` property whose value is a valid [URI](#uri).
 - MAY have a `method` property indicating the protocol method used to submit the form data.
 - MAY have an `enctype` property indicating how the form data is to be encoded. If not present, the default value is `application/x-www-form-urlencoded`.
+- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](#realm-uri).
 - MAY contain other properties.
 
 ## Examples

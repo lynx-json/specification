@@ -18,7 +18,7 @@ None
 
 ## Format Rules
 
-The value MAY be a simple value or `undefined`.
+If the value is present, it must be a simple value.
 
 ## Examples
 

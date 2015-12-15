@@ -19,7 +19,9 @@ None
 
 ## Format Rules
 
-The value MAY be a container value or `undefined`.
+If the value is present, it must comply with the following rules:
+
+- if the value is an object, it MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](#realm-uri).
 
 ## Examples
 
