@@ -46,8 +46,20 @@ The `hints` property is REQUIRED when referring to a value that does not have it
 }
 ```
 
+## Authoring Rules
+
+None
+
+## Authoring Considerations
+
+None
+
 ## User Agent Rules
 
 - The user agent MUST process hints in order from more specific to less specific. The user agent MUST find the most specific hint that it understands and process the value based on that understanding.
 - If the user agent does not understand any hints it SHOULD ignore the value.
 - SHOULD understand all of the [base hints](#base-hint).
+
+## User Agent Considerations
+
+None

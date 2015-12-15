@@ -65,6 +65,14 @@ If the value has a `data` property:
 }
 ```
 
+## Authoring Rules
+
+None
+
+## Authoring Considerations
+
+None
+
 ## User Agent Rules
 
 If the user agent is unable to display the content, it MUST display a link to the content, with the text of the `alt` property, if present.

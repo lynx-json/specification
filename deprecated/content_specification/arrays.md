@@ -66,6 +66,14 @@ If the specification having an `array` hint has a `children` property value with
 }
 ```
 
+## Authoring Rules
+
+None
+
+## Authoring Considerations
+
+None
+
 ## User Agent Rules
 
 If the array value is considered to be an array of inputs, the user agent MUST provide the user with controls to add values to the array and remove values from the array.
