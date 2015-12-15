@@ -29,16 +29,22 @@ If the value is present, it must comply with the following rules:
 ```json
 {
   "title": "Bill Murray",
-  "src": "http://www.fillmurray.com/g/300/400",
-  "alt": "Picture of Bill Murray",
-  "width": 300,
-  "height": 400,
+  "photo": {
+    "src": "http://www.fillmurray.com/g/300/400",
+    "alt": "Picture of Bill Murray",
+    "width": 300,
+    "height": 400,
+  },
   "spec": {
-    "hints": [ "image", "content" ],
+    "hints": [ "container" ],
     "children": [
         {
             "name": "title",
             "hints": [ "label", "text" ]
+        },
+        {
+          "name": "photo",
+          "hints": [ "image", "content" ]
         }
     ]
   }
