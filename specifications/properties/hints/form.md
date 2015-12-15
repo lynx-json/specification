@@ -8,6 +8,14 @@ http://lynx-json.org/form
 
 A `form` hint describes a value that should be interpreted as a form.
 
+## Related Hints
+
+None
+
+## Synonyms
+
+None
+
 ## Format Rules
 
 If the value is present, it must comply with the following rules:
