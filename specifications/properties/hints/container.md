@@ -6,7 +6,7 @@ http://lynx-json.org/container
 
 ## Meaning
 
-A `container` hint describes a value that should be interpreted as text.
+A `container` hint describes a value that should be interpreted as a container of other values.
 
 ## Related Hints
 
