@@ -6,7 +6,7 @@ http://lynx-json.org/name
 
 ## Meaning
 
-The `name` property of a specification identifies the property value that the specification describes.
+The `name` property of a specification identifies the property value or array item value that the specification describes.
 
 ## Format Rules
 
