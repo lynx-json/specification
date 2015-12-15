@@ -10,7 +10,7 @@ A `content` hint describes a value that contains or references content that is t
 
 ## Related Hints
 
-The `content` hint MUST NOT be used with a `container` hint.
+None
 
 ## Format Rules
 
