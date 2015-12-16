@@ -40,21 +40,37 @@ A text validation constraint value MUST be a text validation constraint object o
 
 ```json
 {
-  "value": null,
+  "actor": null,
+  "actorMinLengthError": "The value must be 2 or more characters.",
+  "actorMaxLengthError": "The name must be 100 or fewer characters.",
   "spec": {
-    "input": true,
-    "validation": {
-      "text": [
-        {
-          "invalid": "actorMinLengthError",
-          "minLength": 2
-        },
-        {
-          "invalid": "actorMaxLengthError",
-          "maxLength": 100
+    "hints": [ "container" ],
+    "children": [
+      {
+        "name": "actor",
+        "input": true,
+        "validation": {
+          "text": [
+            {
+              "invalid": "actorMinLengthError",
+              "minLength": 2
+            },
+            {
+              "invalid": "actorMaxLengthError",
+              "maxLength": 100
+            }
+          ]
         }
-      ]
-    }
+      },
+      {
+        "name": "actorMinLengthError",
+        "hints": [ "text" ]
+      },
+      {
+        "name": "actorMaxLengthError",
+        "hints": [ "text" ]
+      }
+    ]
   }
 }
 ```
