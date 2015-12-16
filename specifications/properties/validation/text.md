@@ -10,7 +10,7 @@ The text validation constraint value expresses a constraint or an array of const
 
 ## Format Rules
 
-A text validation constraint value MUST be a text validation constraint object or array of text validation constraint objects that complies with the following rules:
+A text validation constraint value MUST be a text validation constraint object or an array of text validation constraint objects that complies with the following rules:
 
 - MUST comply with the [validation constraint object](#validation-constraint-object) rules.
 - MAY have a `minLength` property. If present, the value of the property MUST be a nonnegative integer.
@@ -85,6 +85,7 @@ None
 
 ## User Agent Rules
 
+// TODO: remove "ignore" and decide on wording
 The user agent MAY ignore the `text` property, otherwise it MUST comply with the following rules for each text validation constraint object in its value:
 
 - If the input value is `undefined`, `null`, or `""`, then the validation state of the constraint is `valid` and the following tests should not be performed.
