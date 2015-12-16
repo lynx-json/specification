@@ -10,7 +10,7 @@ The text validation constraint value expresses a constraint or an array of const
 
 ## Format Rules
 
-A text validation constraint value MUST be a text validation constraint object or array of text validation constraint objects matching the following rules:
+A text validation constraint value MUST be a text validation constraint object or array of text validation constraint objects that complies with the following rules:
 
 - MUST comply with the [validation constraint object](#validation-constraint-object) rules.
 - MAY have a `minLength` property. If present, the value of the property MUST be a nonnegative integer.
@@ -75,6 +75,14 @@ A text validation constraint value MUST be a text validation constraint object o
 }
 ```
 
+## Authoring Rules
+
+None
+
+## Authoring Considerations
+
+None
+
 ## User Agent Rules
 
 The user agent MAY ignore the `text` property, otherwise it MUST comply with the following rules for each text validation constraint object in its value:
@@ -84,3 +92,7 @@ The user agent MAY ignore the `text` property, otherwise it MUST comply with the
 - If the `maxLength` property is present and its value is less than the length of the input value, then the validation state of the constraint is `invalid`.
 - If the `pattern` property is present, the user agent MUST compile the regular expression specified in its value with the global, ignoreCase, and multiline options disabled and test the input value for a match. If the pattern does not start with ‘^’, it is implied. If the pattern does not end with ‘$’, it is implied. If the input value does not match the regular expression, then the validation state of the constraint is `invalid`.
 - If the previous tests have not determined the validation state of the constraint to be `invalid`, then the validation state of the constraint is `valid`.
+
+## User Agent Considerations
+
+None
