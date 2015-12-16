@@ -16,8 +16,8 @@ A value/spec pair:
 
 A Lynx document MUST start with a value/spec pair. If a value/spec pair is a document:
 
-  - it MAY have a `base` property. If present, the value MUST be an absolute URI to be used to represent the URI of the document for relative URI resolution. For more information, see [Section 5.1.1 "Base URI Embedded in Content" in RFC 3986](#rfc-3986).
-  - it SHOULD have a `realm` property. If present, the value MUST comply with the rules defined for [realm URI](#realm-uri).
+- it SHOULD have a `realm` property. If present, the value MUST comply with the rules defined for [realm URI](#realm-uri).
+- it MAY have a `base` property. If present, the value MUST be an absolute URI to be used to represent the URI of the document for relative URI resolution. For more information, see [Section 5.1.1 "Base URI Embedded in Content" in RFC 3986](#rfc-3986).
 
 If the value of the `value` property is an object, the value/spec pair MAY be condensed by
 replacing the `value` property with all of the properties of the object.
