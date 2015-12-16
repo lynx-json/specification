@@ -22,16 +22,27 @@ A text validation constraint value MUST be a text validation constraint object o
 ### Text Validation Constraint Object
 
 ```json
-{
-  "value": null,
+
+  "actor": null,
+  "actorPatternError": "The value must be 'Chevy Chase' or 'Bill Murray'.",
   "spec": {
-    "input": true,
-    "validation": {
-      "text": {
-        "invalid": "actorPatternError",
-        "pattern": "Chevy Chase|Bill Murray"
+    "hints": [ "container" ],
+    "children": [
+      {
+        "name": "actor",
+        "input": true,
+        "validation": {
+          "text": {
+            "invalid": "actorPatternError",
+            "pattern": "Chevy Chase|Bill Murray"
+          }
+        }
+      },
+      {
+        "name": "actorPatternError",
+        "hints": [ "text" ]
       }
-    }
+    ]
   }
 }
 ```
