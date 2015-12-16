@@ -17,9 +17,9 @@ The value of the `validation` property must be an object that complies with the 
   - MUST not have `state` property.
   - MAY have any of following properties: `invalid`, `valid`, and `unknown`. If present, their value MUST be a [property reference](#property-references) targeting the content to be displayed when the validation constraint set object is in that state.
   - MAY have a `required` property. If present, its value must be a [required validation constraint value](#required-validation-constraint).
-  - MAY have a `text` property. If present, its value must be a [text validation constraint value](#text-validation-constraint).
-  - MAY have a `number` property. If present, its value must be a [number validation constraint value](#number-validation-constraint).
-  - MAY have a `content` property. If present, its value must be a [content validation constraint value](#content-validation-constraint).
+  - MAY have a `text` property. If present, its value must be a [text validation constraint value](#text-validation-constraint-value).
+  - MAY have a `number` property. If present, its value must be a [number validation constraint value](#number-validation-constraint-value).
+  - MAY have a `content` property. If present, its value must be a [content validation constraint value](#content-validation-constraint-value).
   - MAY have any other properties whose values MUST be a validation constraint object or an array of validation constraint objects.
 
 ### Validation Constraint Object
