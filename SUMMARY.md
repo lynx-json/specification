@@ -19,6 +19,7 @@
     * [Labeled By](specifications/properties/labeled-by.md)
     * [Input](specifications/properties/input.md)
     * [Validation](specifications/properties/validation/index.md)
+      * [Required](specifications/properties/validation/required.md)
       * [Text](specifications/properties/validation/text.md)
       * [Number](specifications/properties/validation/number.md)
       * [Content](specifications/properties/validation/content.md)
