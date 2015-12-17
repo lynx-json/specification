@@ -22,7 +22,7 @@ The `labeledBy` property is OPTIONAL. If present, its value MUST be the property
     "hints": [ "form" ],
     "children": [
       {
-        "name": "commentsLabel",
+        "name": "label",
         "hints": [ "text" ]
       },
       {
