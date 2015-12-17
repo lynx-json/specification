@@ -70,6 +70,9 @@ When the server performs validation of user input values and responds to invalid
 If any content is targeted by a validation state property (`invalid`, `valid`, or `unknown`), its `visibility` will be determined by the user agent upon initial rendering of the document and upon change of user input values.
 
 ## Authoring Rules
+
+None
+
 ## User Agent Considerations
 
 The user agent must anticipate that unrecognized validation constraint names may be included in a validation constraint set. The user agent must respect the `state` value of those constraints and update content visibility accordingly.

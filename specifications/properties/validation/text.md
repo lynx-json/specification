@@ -6,7 +6,7 @@ http://lynx-json.org/validation/text
 
 ## Meaning
 
-The text validation constraint value expresses a constraint or an array of constraints for an input value.
+The text validation constraint value expresses a text constraint or an array of text constraints for an input value.
 
 ## Format Rules
 
@@ -97,6 +97,7 @@ None
 ## User Agent Rules
 
 // TODO: remove "ignore" and decide on wording
+
 The user agent MAY ignore the `text` property, otherwise it MUST comply with the following rules for each text validation constraint object in its value:
 
 - If the input value is `undefined`, `null`, or `""`, then the validation state of the constraint is `valid` and the following tests should not be performed.

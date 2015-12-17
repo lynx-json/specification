@@ -6,7 +6,7 @@ http://lynx-json.org/validation/required
 
 ## Meaning
 
-The required validation constraint value expresses a constraint for an input value.
+The required validation constraint value expresses a required constraint for an input value.
 
 ## Format Rules
 
@@ -52,6 +52,7 @@ None
 ## User Agent Rules
 
 // TODO: remove "ignore" and decide on wording
+
 The user agent MAY ignore the `required` property, otherwise it MUST comply with the following rules:
 
 - If the input value is `undefined`, `null`, `""`, or `[]`, then the validation state of the constraint is `invalid`; otherwise, the validation state of the constraint is `valid`.
