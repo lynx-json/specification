@@ -2,7 +2,7 @@
 
 ## Name
 
-http://lynx-json.org/validation
+`http://lynx-json.org/validation`
 
 ## Meaning
 

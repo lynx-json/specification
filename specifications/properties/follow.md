@@ -2,7 +2,7 @@
 
 ## Name
 
-http://lynx-json.org/follow
+`http://lynx-json.org/follow`
 
 ## Meaning
 

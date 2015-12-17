@@ -2,7 +2,7 @@
 
 ## Name
 
-http://lynx-json.org/hints
+`http://lynx-json.org/hints`
 
 ## Meaning
 

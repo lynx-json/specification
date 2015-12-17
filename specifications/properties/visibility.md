@@ -2,7 +2,7 @@
 
 ## Name
 
-http://lynx-json.org/visibility
+`http://lynx-json.org/visibility`
 
 ## Meaning
 

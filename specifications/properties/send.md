@@ -2,6 +2,6 @@
 
 ## Name
 
-http://lynx-json.org/send
+`http://lynx-json.org/send`
 
 ## Meaning

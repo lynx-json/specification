@@ -2,7 +2,7 @@
 
 ## Name
 
-http://lynx-json.org/children
+`http://lynx-json.org/children`
 
 ## Meaning
 

@@ -2,7 +2,7 @@
 
 ## Name
 
-http://lynx-json.org/submit
+`http://lynx-json.org/submit`
 
 ## Meaning
 

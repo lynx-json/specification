@@ -2,7 +2,7 @@
 
 ## Name
 
-http://lynx-json.org/label
+`http://lynx-json.org/label`
 
 ## Meaning
 

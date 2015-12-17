@@ -2,7 +2,7 @@
 
 ## Name
 
-http://lynx-json.org/labledBy
+`http://lynx-json.org/labledBy`
 
 ## Meaning
 
