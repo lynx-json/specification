@@ -46,7 +46,7 @@ None
 
 ## User Agent Rules
 
-When finding the label value, the user agent MUST use the [process for finding values](#process-for-finding-values).
+When finding the value identified by the `labledBy` property, the user agent MUST use the [process for finding values](#process-for-finding-values).
 
 ## User Agent Considerations
 
