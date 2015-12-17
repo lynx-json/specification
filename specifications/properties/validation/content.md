@@ -18,7 +18,7 @@ A content validation constraint value MUST be a content validation constraint ob
   - A [media type range](#media-type-range) (e.g., `image/png`, `image/*`).
 - MAY have a `maxLength` property representing the maximum length of the content in bytes. If present, the value of the property MUST be a nonnegative integer.
 
-## Example
+## Examples
 
 ```json
 {
