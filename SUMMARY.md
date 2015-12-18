@@ -31,5 +31,4 @@
   * [Finding Values by Property Name](processes/finding_values.md)
   * [Displaying Content](processes/displaying_content.md)
   * [Submitting Form Data](processes/submitting_form_data.md)
-* [Extensions](extensions/index.md)
 * [References](references/index.md)
