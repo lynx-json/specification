@@ -4,6 +4,6 @@ A specification property is used to provide metadata for a JSON value. A specifi
 
 ## Extensions
 
-This media type may be extended to include new specification properties. Those name of an extended specification property MUST be a qualified name (absolute URI).
+This media type may be extended to include new specification properties. The name of an extended specification property MUST be a qualified name (absolute URI).
 
 This media type may also be extended to include new hints. The name of an extended hint MUST be a qualified name (absolute URI).
