@@ -12,6 +12,7 @@ A `label` hint describes a value that represents a distinguishing name for anoth
 
 - `[ "label", "text" ]`
 - `[ "label", "content" ]`
+- `[ "label", "container" ]`
 
 ## Synonyms
 
@@ -22,6 +23,8 @@ A `label` hint describes a value that represents a distinguishing name for anoth
 None
 
 ## Examples
+
+### Text
 
 ```json
 {
@@ -51,6 +54,83 @@ None
 }
 ```
 
+### Content
+
+```json
+{
+  "value": {
+    "label": {
+      "value": {
+        "src": "./title.jpg",
+        "type": "image/jpeg",
+        "alt": "First Name"
+      },
+      "spec": {
+        "hints": [
+          "label",
+          "content"
+        ]
+      }
+    },
+    "firstName": {
+      "value": "",
+      "spec": {
+        "hints": [
+          "text"
+        ],
+        "labeledBy": "label"
+      }
+    }
+  },
+  "spec": {
+    "hints": [ "container" ]
+  }
+}
+```
+
+### Container
+
+```json
+{
+  "value": {
+    "label": {
+      "value": {
+        "heading": {
+          "value": "The Hateful Eight",
+          "spec": {
+            "hints": [ "text" ]
+          }
+        },
+        "subHeading": {
+          "value": "No One Comes Up Here Without a Damn Good Reason",
+          "spec": {
+            "hints": [ "text" ]
+          }
+        }
+      },
+      "spec": {
+        "hints": [
+          "label",
+          "container"
+        ]
+      }
+    },
+    "firstName": {
+      "value": "",
+      "spec": {
+        "hints": [
+          "text"
+        ],
+        "labeledBy": "label"
+      }
+    }
+  },
+  "spec": {
+    "hints": [ "container" ]
+  }
+}
+```
+
 ## Authoring Rules
 
 None
@@ -61,7 +141,7 @@ None
 
 ## User Agent Rules
 
-None
+If the user agent encounters content with a hint of `label` that has a base hint of `container`, then the user agent MUST consider the value of the label to be the sum of all of its `text` and `content` descendants. In the "Container" example above, the user agent would consider the label to be "The Hateful Eight" and "No One Comes Up Here Without a Damn Good Reason".
 
 ## User Agent Considerations
 
