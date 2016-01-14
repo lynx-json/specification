@@ -1,8 +1,6 @@
-_book
 node_modules
 npm-debug.log
-book.epub
-book.pdf
+out
 
 
 ## Directory-based project format:
