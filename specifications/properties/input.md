@@ -18,6 +18,8 @@ The `input` property is OPTIONAL. If present, its value:
 
 ## Examples
 
+### Text Input
+
 ```json
 {
   "rating": "PG",
@@ -68,9 +70,35 @@ The `input` property is OPTIONAL. If present, its value:
 }
 ```
 
+### Multi-Valued Text Input
+
+```json
+{
+  "scores": [],
+  "spec": {
+    "hints": [ "form" ],
+    "children": [
+      {
+        "name": "scores",
+        "hints": [ "container" ],
+        "input": true,
+        "children": {
+          "hints": [ "text" ],
+          "input": true
+        }
+      }
+    ]
+  }
+}
+```
+
 ## Authoring Rules
 
-None
+In order to represent a multi-valued input, the specification describing the container:
+
+* MUST have a `container` hint
+* MUST have an `input` property
+* MUST have a `children` property that is a specification which MUST also have an `input` property.
 
 ## Authoring Considerations
 
@@ -78,7 +106,7 @@ None
 
 ## User Agent Rules
 
-None
+If the container value is considered a multi-valued input, the user agent MUST provide the user with controls to add or remove values to or from the container.
 
 ## User Agent Considerations
 
