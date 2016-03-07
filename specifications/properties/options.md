@@ -107,5 +107,5 @@ An "option" is defined as a value that is described by a hint matching the most 
 
 - When finding the value identified by the `options` property, the user agent MUST use the [process for finding values](#process-for-finding-values).
 - For the value identified by the `options` property, the user agent MUST identify the options in the value (including the value itself).
-- The user agent MUST provide the user with a control to select each identified option. If an option is in a container and the container contains no other options, then the container MAY be considered the control to select the option.
+- The user agent MUST provide the user with a control to select and deselect each identified option. If an option is in a container and the container contains no other options, then the container MAY be considered the control to select the option.
 - For multi-valued inputs, selecting an option adds the value to the input container and deselecting an option removes the value from the input container.
