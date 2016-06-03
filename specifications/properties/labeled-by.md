@@ -10,7 +10,8 @@ The `labeledBy` property of a specification identifies another value that labels
 
 ## Format Rules
 
-The `labeledBy` property is OPTIONAL. If present, its value MUST be the property name of the value that labels the value being described by the specification.
+* The `labeledBy` property is OPTIONAL. If present, its value MUST be the property name of the value that labels the value being described by the specification.
+* The property referenced by the `labeledBy` property SHOULD be described by a [`label` hint](#label-hint). 
 
 ## Example
 
@@ -23,7 +24,7 @@ The `labeledBy` property is OPTIONAL. If present, its value MUST be the property
     "children": [
       {
         "name": "label",
-        "hints": [ "text" ]
+        "hints": [ "label", "text" ]
       },
       {
         "name": "comments",
