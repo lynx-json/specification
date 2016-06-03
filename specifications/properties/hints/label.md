@@ -112,11 +112,15 @@ None
         "hints": [
           "label",
           "container"
+        ],
+        "children": [
+          { "name": "heading" },
+          { "name": "subHeading" }
         ]
       }
     },
-    "firstName": {
-      "value": "",
+    "synopsis": {
+      "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "spec": {
         "hints": [
           "text"
@@ -141,7 +145,10 @@ None
 
 ## User Agent Rules
 
-If the user agent encounters content with a hint of `label` that has a base hint of `container`, then the user agent MUST consider the value of the label to be the sum of all of its `text` and `content` descendants. In the "Container" example above, the user agent would consider the label to be "The Hateful Eight" and "No One Comes Up Here Without a Damn Good Reason".
+The user agent should consider the text content of the value described by the `label` hint to be the distinguishing name. For example, in the "Container" section above, the user agent would consider the distinguishing name to be:
+
+  The Hateful Eight  
+  No One Comes Up Here Without a Damn Good Reason
 
 ## User Agent Considerations
 

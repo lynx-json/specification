@@ -70,7 +70,8 @@ None
 
 ## User Agent Rules
 
-TBD - Need to add rules for container of inputs.
+- TBD - Need to add rules for container of inputs.
+- The user agent SHOULD consider the sum of the text content for all values in the container to be the text content for the container.
 
 ## User Agent Considerations
 

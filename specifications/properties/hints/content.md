@@ -81,7 +81,8 @@ None
 
 ## User Agent Rules
 
-If the user agent is unable to display the content, it MUST display a link to the content, with the text of the `alt` property, if present.
+- If the user agent is unable to display the content, it MUST display a link to the content, with the text of the `alt` property, if present.
+- If the type of the content is not in the range `text/*`, then the user agent SHOULD consider the value of the `alt` property to be the text content for the value.
 
 ### Input
 
