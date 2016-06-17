@@ -1,4 +1,4 @@
-# Labeled By Specification Property
+# Submitter Specification Property
 
 ## Name
 

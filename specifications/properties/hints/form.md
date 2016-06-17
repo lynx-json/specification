@@ -29,7 +29,7 @@ If the value is present, it must comply with the following rules:
 ```json
 {
   "title": "Add a Comment",
-  "comment": null
+  "comment": null,
   "spec": {
     "hints": [ "form" ],
     "children": [

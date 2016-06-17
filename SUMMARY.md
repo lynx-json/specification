@@ -25,6 +25,7 @@
       * [Content](specifications/properties/validation/content.md)
     * [Follow](specifications/properties/follow.md)
     * [Send](specifications/properties/send.md)
+    * [Submitter](specifications/properties/submitter.md)
     * [Options](specifications/properties/options.md)
 * [Realm URI](realm/index.md)
 * [User Agent Processes](processes/index.md)
