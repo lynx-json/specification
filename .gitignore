@@ -1,8 +1,7 @@
-_book
 node_modules
-book.epub
-book.pdf
-
+npm-debug.log
+out
+_book
 
 ## Directory-based project format:
 .idea/

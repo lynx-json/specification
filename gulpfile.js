@@ -3,23 +3,21 @@ var run = require('gulp-run');
 var del = require('del');
 
 gulp.task('clean', function(cb) {
-	del(['_book','book.pdf', 'book.epub'], cb);
+	del("./out", cb);
 });
 
 gulp.task('build-html', ['clean'], function(cb) {
-	var cmd = "gitbook build --format page .";
-
+	var cmd = "gitbook build --format page . -o ./out/html";
 	run(cmd).exec(cb);
 });
 
 gulp.task('build-epub', ['clean'],  function(cb){
-	var cmd = "gitbook epub --format ebook --cover ./cover.jpg";
-
+	var cmd = "gitbook epub -v --format ebook --cover ./cover.jpg -o ./out/book.epub";
 	run(cmd).exec(cb);
 });
 
 gulp.task('build-pdf', ['build-html'], function(cb) {
-	var cmd = "ebook-convert ./_book/index.html ./book.pdf " +
+	var cmd = "ebook-convert ./out/html/index.html ./out/book.pdf " +
 	"--cover=./cover.jpg --title=\"Lynx JSON Media Type\" " +
 	"--comments=\"The media type specification\" " +
 	"--margin-left=62 --margin-right=62 --margin-top=36 --margin-bottom=36 " +
