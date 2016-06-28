@@ -62,7 +62,7 @@ None
 
 ## User Agent Rules
 
-After displaying the document containing the value described by the `send` property, the user agent MUST submit the related form data when the value of an input changes if the form is valid.
+After displaying the document containing the value described by the `send` property, the user agent MUST submit the related form data when the value of an input changes if the validation state of the form is not invalid.
 
 ## User Agent Considerations
 
