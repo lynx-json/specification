@@ -67,3 +67,19 @@ The `name` property of a specification identifies the property value or array it
   }
 }
 ```
+
+## Authoring Rules
+
+None
+
+## Authoring Considerations
+
+None
+
+## User Agent Rules
+
+None
+
+## User Agent Considerations
+
+None

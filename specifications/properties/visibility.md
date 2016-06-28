@@ -35,6 +35,14 @@ The `visibility` property is OPTIONAL. If present, the value MUST be one of the 
 }
 ```
 
+## Authoring Rules
+
+None
+
+## Authoring Considerations
+
+None
+
 ## User Agent Rules
 
 - If `hidden`, the user agent MUST NOT display the value to the user.

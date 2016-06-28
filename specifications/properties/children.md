@@ -98,6 +98,14 @@ If present, the `children` property MUST be a [specification](#specifications) o
 }
 ```
 
+## Authoring Rules
+
+None
+
+## Authoring Considerations
+
+None
+
 ## User Agent Rules
 
 If a value in a container is a value/spec pair, then the user agent MUST use the specification object of the value/spec pair instead of the specification object found in the `children` property value.
@@ -109,3 +117,7 @@ If the container value is an object and the `children` property is a specificati
 If the container value is an array and the `children` property is a specification, then the order of the values in the container is their natural order.
 
 If the `children` property is an array of specifications, then the user agent MUST use the order of the specifications in the `children` property to determine the order of the values (ignoring their natural order if the container value is an array).
+
+## User Agent Considerations
+
+None
