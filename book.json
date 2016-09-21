@@ -1,10 +1,4 @@
 {
-    "name": "lynx+json",
-    "version": "0.0.0",
     "title": "Lynx JSON Media Type",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lynx-json/specification"
-    },
-    "license": ""
+    "gitbook": "2.5.2"
 }
