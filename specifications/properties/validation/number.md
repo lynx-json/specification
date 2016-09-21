@@ -12,7 +12,7 @@ The number validation constraint value expresses a numerical constraint or an ar
 
 A number validation constraint value MUST be a number validation constraint object or an array of number validation constraint objects that complies with the following rules:
 
-- MUST comply with the [validation constraint object](#validation-constraint-object) rules.
+- MUST comply with the [validation constraint object](/specifications/properties/validation/index.md#validation-constraint-object) rules.
 - MAY have a `min` property. If present, the value MUST be a number.
 - MAY have a `max` property. If present, the value MUST be a number.
 - MAY have a `step` property. If present, the value MUST be a positive number.

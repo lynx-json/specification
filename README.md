@@ -19,29 +19,29 @@ We would like to thank the following people for their contributions to this docu
 
 ## Conventions Used in This Document
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](#rfc-2119).
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](/references/#rfc-2119).
 
 ## Terminology
 
 <dl>
 <dt><a name="json">JSON</a></dt>
-<dd>Refers to the media type JSON as defined in [RFC 4627](#rfc-4627).</dd>
+<dd>Refers to the media type JSON as defined in [RFC 4627](/references/#rfc-4627).</dd>
 <dt><a name="uri">URI</a></dt>
-<dd>Refers to a URI as defined in [RFC 3986](#rfc-3986).</dd>
+<dd>Refers to a URI as defined in [RFC 3986](/references/#rfc-3986).</dd>
 <dt><a name="url">URL</a></dt>
-<dd>Refers to a URL as defined in [RFC 3986](#rfc-3986).</dd>
+<dd>Refers to a URL as defined in [RFC 3986](/references/#rfc-3986).</dd>
 <dt><a name="urn">URN</a></dt>
-<dd>Refers to a URN as defined in [RFC 3986](#rfc-3986).</dd>
+<dd>Refers to a URN as defined in [RFC 3986](/references/#rfc-3986).</dd>
 <dt><a name="media-type-name">Media Type Name</a></dt>
-<dd>Refers to a media type name as defined in [RFC 6838](#rfc-6838).</dd>
+<dd>Refers to a media type name as defined in [RFC 6838](/references/#rfc-6838).</dd>
 <dt><a name="base-hint">Base Hint</a></dt>
 <dd>Refers to one of the following hints: `container`, `link`, `form`, `submit`, `content`, and `text`.</dd>
 <dt><a name="display">Display</a></dt>
 <dd>The conveyance of a value to a user in a manner appropriate for the user agent and the user.</dd>
 <dt><a name="resource">Resource</a></dt>
-<dd>See Section 5.2.1.1 "Resources and Resource Identifiers" in the [Fielding Dissertation](#fielding-dissertation).</dd>
+<dd>See Section 5.2.1.1 "Resources and Resource Identifiers" in the [Fielding Dissertation](/references/#fielding-dissertation).</dd>
 <dt><a name="representation">Representation</a></dt>
-<dd>See Section 5.2.1.2 "Representations" in the [Fielding Dissertation](#fielding-dissertation).</dd>
+<dd>See Section 5.2.1.2 "Representations" in the [Fielding Dissertation](/references/#fielding-dissertation).</dd>
 </dl>
 
 ## Compliance
@@ -53,7 +53,7 @@ An implementation is "non-compliant" if it fails to satisfy one or more of the M
 ### base
 
 - The parameter is OPTIONAL.
-- If present, its value MUST be an absolute URI to be used for relative URI resolution. For more information, see [Section 5.1.2 "Base URI from the Encapsulating Entity" in RFC 3986](#rfc-3986).
+- If present, its value MUST be an absolute URI to be used for relative URI resolution. For more information, see [Section 5.1.2 "Base URI from the Encapsulating Entity" in RFC 3986](/references/#rfc-3986).
 
 #### Example
 
@@ -71,7 +71,7 @@ Content-Type: application/lynx+json;base="http://example.com/greetings/hello-wor
 ### realm
 
 - The parameter is OPTIONAL.
-- If present, its value MUST comply with the rules defined for [Realm URI](#realm-uri).
+- If present, its value MUST comply with the rules defined for [Realm URI](/realm/).
 
 #### Example
 
@@ -112,4 +112,4 @@ The registration status of this media type is as follows:
 
 ## Documents
 
-While a JSON document may begin with an object or an array, a Lynx document MUST begin with a [value/spec pair](#content).
+While a JSON document may begin with an object or an array, a Lynx document MUST begin with a [value/spec pair](/content/).

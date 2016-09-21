@@ -23,7 +23,7 @@ If the value is present, it must comply with the following rules:
 - MUST be an object.
 - MUST have an `src` property for remote content or a `data` property for inline content.
 - SHOULD have an `alt` property for alternate text to be displayed if the content cannot be displayed or if the user cannot view it.
-- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](#realm-uri).
+- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](/realm/).
 - MUST NOT contain any other properties that are described by a specification.
 - MAY contain other properties that are not described by a specification.
 
@@ -31,8 +31,8 @@ If the value is present, it must comply with the following rules:
 
 If the value has an `src` property:
 
-- the `src` property MUST be a valid [URI](#uri).
-- the value MAY have a `type` property whose value must be a valid [media type name](#media-type-name) to indicate the expected media type of the content.
+- the `src` property MUST be a valid [URI](/#uri).
+- the value MAY have a `type` property whose value must be a valid [media type name](/references/#rfc-6838) to indicate the expected media type of the content.
 - the value MUST NOT have `data` or `encoding` properties.
 
 ### `data` present
@@ -40,7 +40,7 @@ If the value has an `src` property:
 If the value has a `data` property:
 
 - the `data` property MUST be a string representing the content to be embedded.
-- the value MUST have a `type` property whose value must be a valid [media type name](#media-type-name) to indicate the media type of the content encoded in the `data` property.
+- the value MUST have a `type` property whose value must be a valid [media type name](/references/#rfc-6838) to indicate the media type of the content encoded in the `data` property.
 - the value MAY have an `encoding` property whose value MUST be `utf-8` or `base64`. If not present, the value is `utf-8`.
 - the value MUST NOT have an `src` property.
 

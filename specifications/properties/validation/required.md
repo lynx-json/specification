@@ -12,7 +12,7 @@ The required validation constraint value expresses a required constraint for an 
 
 A required validation constraint value MUST be a required validation constraint object that complies with the following rules:
 
-- MUST comply with the [validation constraint object](#validation-constraint-object) rules.
+- MUST comply with the [validation constraint object](/specifications/properties/validation/index.md#validation-constraint-object) rules.
 
 ## Examples
 

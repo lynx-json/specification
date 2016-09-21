@@ -12,10 +12,10 @@ The content validation constraint value expresses a content constraint or an arr
 
 A content validation constraint value MUST be a content validation constraint object or an array of content validation constraint objects that complies with the following rules:
 
-- MUST comply with the [validation constraint object](#validation-constraint-object) rules.
+- MUST comply with the [validation constraint object](/specifications/properties/validation/index.md#validation-constraint-object) rules.
 - MAY have a `type` property. If present, the value of the property MUST be a string or an array of strings matching one of the following:
   - A file extension (e.g., `.jpg`, `.png`, `.doc`).
-  - A [media type range](#media-type-range) (e.g., `image/png`, `image/*`).
+  - A [media type range](/references/#rfc-6838) (e.g., `image/png`, `image/*`).
 - MAY have a `maxLength` property representing the maximum length of the content in bytes. If present, the value of the property MUST be a nonnegative integer.
 
 ## Examples

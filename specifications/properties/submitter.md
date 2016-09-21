@@ -11,7 +11,7 @@ The `submitter` property of a specification identifies another value that is the
 ## Format Rules
 
 - The `submitter` property is OPTIONAL. If present, its value MUST be the property name of the value that submits form data for the value being described by the specification.
-- The property referenced by the `submitter` property SHOULD be described by a [`submit` hint](#submit-hint).
+- The property referenced by the `submitter` property SHOULD be described by a [`submit` hint](/specifications/properties/hints/submit.md).
 
 ## Example
 
@@ -64,7 +64,7 @@ None
 
 ## User Agent Rules
 
-- When finding the value identified by the `submitter` property, the user agent MUST use the [process for finding values](#process-for-finding-values) and invoke the value's control.
+- When finding the value identified by the `submitter` property, the user agent MUST use the [process for finding values](/processes/finding_values.md) and invoke the value's control.
 
 ## User Agent Considerations
 

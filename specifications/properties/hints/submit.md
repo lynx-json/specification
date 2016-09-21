@@ -21,10 +21,10 @@ None
 If the value is present, it must comply with the following rules:
 
 - MUST be an object.
-- MUST have an `action` property whose value is a valid [URI](#uri).
+- MUST have an `action` property whose value is a valid [URI](/#uri).
 - MAY have a `method` property indicating the protocol method used to submit the form data.
 - MAY have an `enctype` property indicating how the form data is to be encoded. If not present, the default value is `application/x-www-form-urlencoded`.
-- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](#realm-uri).
+- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](/realm/).
 - MAY contain other properties.
 
 ## Examples
@@ -58,7 +58,7 @@ None
 
 - The user agent MUST provide the user with a control to perform the submission.
 - If the `method` property is not present, then the user agent MUST submit the form data using the default retrieval action for the protocol (e.g. GET for HTTP).
-- When a `submit` control is invoked, the user agent MUST prepare a form data set, encode the form data set into a representation, and submit the representation, as defined in the [Process for Submitting Form Data](#process-for-submitting-form-data) section.
+- When a `submit` control is invoked, the user agent MUST prepare a form data set, encode the form data set into a representation, and submit the representation, as defined in the [Process for Submitting Form Data](/processes/submitting_form_data.md) section.
 
 ## User Agent Considerations
 
