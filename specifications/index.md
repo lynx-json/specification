@@ -1,6 +1,6 @@
 # Specifications
 
-A specification is a JSON object that describes a JSON value. The media type for a specification object is `application/lynx-spec+json`.
+A specification is a [JSON](/#json) object that describes a [JSON](/#json) value. The media type for a specification object is `application/lynx-spec+json`.
 
 ## Format Rules
 

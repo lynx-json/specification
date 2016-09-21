@@ -1,6 +1,6 @@
 # Values
 
-A value can be any JSON value. They can be divided into two groups: simple values and container values.
+A value can be any [JSON](/#json) value. They can be divided into two groups: simple values and container values.
 
 ## Simple Values
 
@@ -12,7 +12,7 @@ Container values include objects and arrays.
 
 ## Format Rules
 
-The JSON media type specification controls the format of JSON values.
+The JSON media type specification controls the format of [JSON](/#json) values.
 
 ## Examples
 
