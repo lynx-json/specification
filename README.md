@@ -23,26 +23,41 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## Terminology
 
-<dl>
-<dt><a name="json">JSON</a></dt>
-<dd>Refers to the media type JSON as defined in [RFC 4627](/references/#rfc-4627).</dd>
-<dt><a name="uri">URI</a></dt>
-<dd>Refers to a URI as defined in [RFC 3986](/references/#rfc-3986).</dd>
-<dt><a name="url">URL</a></dt>
-<dd>Refers to a URL as defined in [RFC 3986](/references/#rfc-3986).</dd>
-<dt><a name="urn">URN</a></dt>
-<dd>Refers to a URN as defined in [RFC 3986](/references/#rfc-3986).</dd>
-<dt><a name="media-type-name">Media Type Name</a></dt>
-<dd>Refers to a media type name as defined in [RFC 6838](/references/#rfc-6838).</dd>
-<dt><a name="base-hint">Base Hint</a></dt>
-<dd>Refers to one of the following hints: `container`, `link`, `form`, `submit`, `content`, and `text`.</dd>
-<dt><a name="display">Display</a></dt>
-<dd>The conveyance of a value to a user in a manner appropriate for the user agent and the user.</dd>
-<dt><a name="resource">Resource</a></dt>
-<dd>See Section 5.2.1.1 "Resources and Resource Identifiers" in the [Fielding Dissertation](/references/#fielding-dissertation).</dd>
-<dt><a name="representation">Representation</a></dt>
-<dd>See Section 5.2.1.2 "Representations" in the [Fielding Dissertation](/references/#fielding-dissertation).</dd>
-</dl>
+### JSON
+
+Refers to the media type JSON as defined in [RFC 4627](/references/#rfc-4627).
+
+### URI
+
+Refers to a URI as defined in [RFC 3986](/references/#rfc-3986).
+
+### URL
+
+Refers to a URL as defined in [RFC 3986](/references/#rfc-3986).
+
+### URN
+
+Refers to a URN as defined in [RFC 3986](/references/#rfc-3986).
+
+### Media Type Name
+
+Refers to a media type name as defined in [RFC 6838](/references/#rfc-6838).
+
+### Base Hint
+
+Refers to one of the following hints: `container`, `link`, `form`, `submit`, `content`, and `text`.
+
+### Display
+
+The conveyance of a value to a user in a manner appropriate for the user agent and the user.
+
+### Resource
+
+See Section 5.2.1.1 "Resources and Resource Identifiers" in the [Fielding Dissertation](/references/#fielding-dissertation).
+
+### Representation
+
+See Section 5.2.1.2 "Representations" in the [Fielding Dissertation](/references/#fielding-dissertation).
 
 ## Compliance
 
