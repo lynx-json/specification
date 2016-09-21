@@ -24,6 +24,7 @@ If the value is present, it must comply with the following rules:
 - MUST have an `src` property for remote content or a `data` property for inline content.
 - SHOULD have an `alt` property for alternate text to be displayed if the content cannot be displayed or if the user cannot view it.
 - MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](/realm/).
+- MAY have a `rel` property whose value specifies the relationship between the document containing the link and the destination resource, as described in [RFC 5988](/references/#rfc-5988).
 - MUST NOT contain any other properties that are described by a specification.
 - MAY contain other properties that are not described by a specification.
 

@@ -25,6 +25,7 @@ If the value is present, it must comply with the following rules:
 - MAY have a `method` property indicating the protocol method used to submit the form data.
 - MAY have an `enctype` property indicating how the form data is to be encoded. If not present, the default value is `application/x-www-form-urlencoded`.
 - MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](/realm/).
+- MAY have a `rel` property whose value specifies the relationship between the document containing the link and the destination resource, as described in [RFC 5988](/references/#rfc-5988).
 - MAY contain other properties.
 
 ## Examples

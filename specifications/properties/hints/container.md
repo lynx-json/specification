@@ -76,4 +76,4 @@ None
 ## User Agent Considerations
 
 - The user agent must anticipate that a container may contain simple values, container values, or a combination of both.
-- A user agent must anticipate that a value described by an `container` hint may contain any length and combination of values, including repeated values.
+- A user agent must anticipate that a value described by a `container` hint may contain any length and combination of values, including repeated values.
