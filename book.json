@@ -1,4 +1,4 @@
 {
     "title": "Lynx JSON Media Type",
-    "gitbook": "2.5.2"
+    "gitbook": ">= 3.0.0"
 }
