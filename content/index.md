@@ -1,6 +1,6 @@
 # Content
 
-The content of all documents defined by this media type are extensions of [JSON](/references/#rfc-4627) and MUST comply with the rules of that media type. All usages of the JSON keywords "string", "number", "object", "array", "true", "false", "null", and "value" refer to the concepts in the JSON specification unless otherwise stated. The word "property" is used to refer to the concept of "pair", "name/value pair", or "member" in the JSON specification. The word "integer" is used to refer to a JSON "number" with no fractional part. The phrase "container value" is used to refer to objects and arrays. The phrase "simple value" is used to refer to strings, numbers, `true`, `false`, or `null`.
+The content of all documents defined by this media type are extensions of [JSON](/#json) and MUST comply with the rules of that media type. All usages of the JSON keywords "string", "number", "object", "array", "true", "false", "null", and "value" refer to the concepts in the JSON specification unless otherwise stated. The word "property" is used to refer to the concept of "pair", "name/value pair", or "member" in the JSON specification. The word "integer" is used to refer to a JSON "number" with no fractional part. The phrase "container value" is used to refer to objects and arrays. The phrase "simple value" is used to refer to strings, numbers, `true`, `false`, or `null`.
 
 ## Value/Spec Pairs
 
@@ -11,7 +11,7 @@ Lynx is built on a simple JSON object that conveys a value (data) and a specific
 A value/spec pair:
 
 - MUST be a JSON object
-- MUST have a `value` property whose value MAY be any [JSON](/references/#rfc-4627) value.
+- MUST have a `value` property whose value MAY be any [JSON](/#json) value.
 - MUST have a `spec` property whose value MUST be a [specification object](/specifications/) or a URL to a remote specification object.
 
 A Lynx document MUST start with a value/spec pair. If a value/spec pair is a document:
