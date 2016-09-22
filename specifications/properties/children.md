@@ -6,11 +6,11 @@
 
 ## Meaning
 
-The `children` property is used to provide a specification, or an array of specifications, to describe the values in a container value (object or array). If the `children` property is an array of specifications, then it also describes the order of the items in the container.
+The `children` property is used to provide a specification, or an array of specifications, to describe the values in a container. If the `children` property is an array of specifications, then it also describes the order of the items in the container.
 
 ## Format Rules
 
-If all of the values in a container value have the same meaning and traits, then a single specification object may be used to describe them all. Otherwise, they must be described individually.
+If all of the values in a container have the same meaning and traits, then a single specification object may be used to describe them all. Otherwise, they must be described individually.
 
 ### Single Specification
 
