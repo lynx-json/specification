@@ -56,4 +56,4 @@ None
 
 ## User Agent Considerations
 
-In order to emphasize the individual values in a list while still conveying the closeness of their relationship, a user agent should render the list in a way that accomplishes that goal. For example, a user agent may choose to render the values in a list in the secondary direction of reading order, such as top-to-bottom in English (as opposed to the primary direction of reading order of left-to-right) to emphasize each value, but reduce the space between the values to convey their interrelationships.
+In order to emphasize the individual values in a list while still conveying the closeness of their relationship, a user agent should display the list in a way that accomplishes that goal. For example, a user agent may choose to display the values in a list in the secondary direction of reading order, such as top-to-bottom in English (as opposed to the primary direction of reading order of left-to-right) to emphasize each value, but reduce the space between the values to convey their interrelationships.

@@ -57,4 +57,4 @@ None
 
 ## User Agent Considerations
 
-In order to emphasize the group more than the values in the group, a user agent should render the group in a way that accomplishes that goal. For example, a user agent may choose to render the values in a group in the primary direction of reading order, such as left-to-right in English (as opposed to the secondary direction of reading order top-to-bottom).
+In order to emphasize the group more than the values in the group, a user agent should display the group in a way that accomplishes that goal. For example, a user agent may choose to display the values in a group in the primary direction of reading order, such as left-to-right in English (as opposed to the secondary direction of reading order top-to-bottom).
