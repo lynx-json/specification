@@ -8,6 +8,7 @@
     * [Name](specifications/properties/name.md)
     * [Hints](specifications/properties/hints/index.md)
       * [Text](specifications/properties/hints/text.md)
+      * [Line](specifications/properties/hints/line.md)
       * [Content](specifications/properties/hints/content.md)
       * [Label](specifications/properties/hints/label.md)
       * [Container](specifications/properties/hints/container.md)
