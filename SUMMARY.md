@@ -12,6 +12,7 @@
       * [Label](specifications/properties/hints/label.md)
       * [Container](specifications/properties/hints/container.md)
       * [Group](specifications/properties/hints/group.md)
+      * [List](specifications/properties/hints/list.md)
       * [Link](specifications/properties/hints/link.md)
       * [Submit](specifications/properties/hints/submit.md)
       * [Form](specifications/properties/hints/form.md)
