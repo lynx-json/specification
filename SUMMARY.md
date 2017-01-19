@@ -13,6 +13,7 @@
       * [Label](specifications/properties/hints/label.md)
       * [Container](specifications/properties/hints/container.md)
       * [Header](specifications/properties/hints/header.md)
+      * [Complement](specifications/properties/hints/complement.md)
       * [Group](specifications/properties/hints/group.md)
       * [List](specifications/properties/hints/list.md)
       * [Link](specifications/properties/hints/link.md)
