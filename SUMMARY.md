@@ -19,6 +19,7 @@
         * [Complement](specifications/properties/hints/complement.md)
         * [Group](specifications/properties/hints/group.md)
         * [List](specifications/properties/hints/list.md)
+        * [Table](specifications/properties/hints/table.md)
         * [Card](specifications/properties/hints/card.md)
         * [Form](specifications/properties/hints/form.md)
       * Connections
