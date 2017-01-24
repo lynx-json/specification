@@ -6,8 +6,7 @@
 
 ## Meaning
 
-A `table` hint describes a value that is a container of independent values that 
-are comparable to each other in some way.
+A `table` hint describes a `list` of values that are comparable to each other in some way.
 
 ## Related Hints
 
@@ -89,5 +88,5 @@ None
 
 ## User Agent Considerations
 
-The user agent should display the table in a way that allows easy comparison of 
+The user agent should display the table in a way that allows easy comparison of
 values. This is usually accomplished by organizing the table into rows and columns.
