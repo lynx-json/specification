@@ -24,6 +24,10 @@ ECMA, "[ECMAScript® Language Specification](http://www.ecma-international.org/e
 
 "[Hypertext Transfer Protocol -- HTTP/1.1](https://www.ietf.org/rfc/rfc2616.txt)", R. Fielding, J. Gettys, J. Mogul, H. Frystyk Nielsen, L. Masinter, P. Leach and T. Berners-Lee, June 1999.
 
+## RFC 5988
+
+"[Web Linking](https://tools.ietf.org/html/rfc5988)", M. Nottingham, October 2010.
+
 ## Fielding Dissertation
 
 "Architectual Styles and the Design of Network-based Software Architectures" (https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)", R. Fielding, 2000.

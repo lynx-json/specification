@@ -24,6 +24,7 @@ If the value is present, it must comply with the following rules:
 - MUST have an `href` property whose value is a valid [URI](/#uri).
 - MAY have a `type` property whose value must be a valid [media type name](/references/#rfc-6838) to indicate the expected media type of the content.
 - MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](/realm/).
+- MAY have a `rel` property whose value specifies the relationship between the document containing the link and the destination resource, as described in [RFC 5988](/references/#rfc-5988).
 - MAY contain other properties.
 
 ## Examples
@@ -47,10 +48,6 @@ If the value is present, it must comply with the following rules:
 ## Authoring Rules
 
 None
-
-## Authoring Considerations
-
-While the concept of a link relationship ("rel") has been intentionally omitted from these rules, that does not mean that it has no value or that it should be omitted from authored documents. The purpose of this specification is to define the meaning of the values - not to define the relationship between the value and the resource identified by the context URI. The "rel" concept is still important and it could be included in a link object by extension.
 
 ## User Agent Rules
 
