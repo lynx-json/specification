@@ -17,7 +17,7 @@ The `labeledBy` property of a specification identifies another value that labels
 
 ```json
 {
-  "label": "What did you think of the movie?",
+  "label": "Comments on the Movie",
   "comments": null,
   "spec":{
     "hints": [ "form" ],
