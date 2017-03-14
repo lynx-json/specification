@@ -33,8 +33,6 @@
       * [Text](specifications/properties/validation/text.md)
       * [Number](specifications/properties/validation/number.md)
       * [Content](specifications/properties/validation/content.md)
-    * [Follow](specifications/properties/follow.md)
-    * [Send](specifications/properties/send.md)
     * [Submitter](specifications/properties/submitter.md)
     * [Options](specifications/properties/options.md)
     * [Option](specifications/properties/option.md)
