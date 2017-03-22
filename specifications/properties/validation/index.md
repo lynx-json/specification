@@ -15,11 +15,11 @@ The `validation` property of a specification is used to indicate that a value ha
 The value of the `validation` property must be an object that complies with the following rules:
 
   - MUST not have `state` property.
-  - MAY have any of following properties: `invalid`, `valid`, and `unknown`. If present, their value MUST be a [property reference](/processes/finding_values.md) targeting the content to be displayed when the validation constraint set object is in that state.
-  - MAY have a `required` property. If present, its value must be a [required validation constraint value](/specifications/properties/validation/required.md).
-  - MAY have a `text` property. If present, its value must be a [text validation constraint value](/specifications/properties/validation/text.md).
-  - MAY have a `number` property. If present, its value must be a [number validation constraint value](/specifications/properties/validation/number.md).
-  - MAY have a `content` property. If present, its value must be a [content validation constraint value](/specifications/properties/validation/content.md).
+  - MAY have any of following properties: `invalid`, `valid`, and `unknown`. If present, their value MUST be a [property reference](../../../processes/finding_values.md) targeting the content to be displayed when the validation constraint set object is in that state.
+  - MAY have a `required` property. If present, its value must be a [required validation constraint value](./required.md).
+  - MAY have a `text` property. If present, its value must be a [text validation constraint value](./text.md).
+  - MAY have a `number` property. If present, its value must be a [number validation constraint value](./number.md).
+  - MAY have a `content` property. If present, its value must be a [content validation constraint value](./content.md).
   - MAY have any other properties whose values MUST be a validation constraint object or an array of validation constraint objects.
 
 ### Validation Constraint Object
@@ -27,7 +27,7 @@ The value of the `validation` property must be an object that complies with the 
 The value of a validation constraint object must be an object that complies with the following rules:
 
   - MAY have a `state` property. If present, its value MUST be `invalid`, `valid`, or `unknown`.
-  - MAY have any of following properties: `invalid`, `valid`, and `unknown`. If present, their value MUST be a [property reference](/processes/finding_values.md) targeting the content to be displayed when the validation constraint object is in that state.
+  - MAY have any of following properties: `invalid`, `valid`, and `unknown`. If present, their value MUST be a [property reference](../../../processes/finding_values.md) targeting the content to be displayed when the validation constraint object is in that state.
   - MAY have any other property.
 
 ## Examples

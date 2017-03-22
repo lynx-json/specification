@@ -21,10 +21,10 @@ None
 If the value is present, it must comply with the following rules:
 
 - MUST be an object.
-- MUST have an `href` property whose value is a valid [URI](/#uri).
-- MAY have a `type` property whose value must be a valid [media type name](/references/#rfc-6838) to indicate the expected media type of the content.
-- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](/realm/).
-- MAY have a `rel` property whose value specifies the relationship between the document containing the link and the destination resource, as described in [RFC 5988](/references/#rfc-5988).
+- MUST have an `href` property whose value is a valid [URI](../../../#uri).
+- MAY have a `type` property whose value must be a valid [media type name](../../../references/#rfc-6838) to indicate the expected media type of the content.
+- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](../../../realm/).
+- MAY have a `rel` property whose value specifies the relationship between the document containing the link and the destination resource, as described in [RFC 5988](../../../references/#rfc-5988).
 - MAY have a `follow` property whose value must be a positive number representing the number of milliseconds the user agent should wait before following the link on behalf of the user.
 - MAY contain other properties.
 

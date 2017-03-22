@@ -14,7 +14,7 @@ The `option` property is OPTIONAL. If present, its value MUST be `true`.
 
 ## Examples
 
-See the examples in the [`options` specification property](/specifications/properties/options.md) section.
+See the examples in the [`options` specification property](./options.md) section.
 
 ## Authoring Rules
 

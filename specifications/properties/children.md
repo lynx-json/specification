@@ -14,11 +14,11 @@ If all of the values in a container have the same meaning and traits, then a sin
 
 ### Single Specification
 
-If present, the `children` property MUST be a [specification](/specifications/) or the URL of a specification.
+If present, the `children` property MUST be a [specification](../index.md) or the URL of a specification.
 
 ### Array of Specifications
 
-- Each item MUST be a [specification](/specifications/) or the URL of a specification.
+- Each item MUST be a [specification](../index.md) or the URL of a specification.
 - Each specification MUST have a `name` property.
 
 ## Examples

@@ -12,7 +12,7 @@ The text validation constraint value expresses a text constraint or an array of 
 
 A text validation constraint value MUST be a text validation constraint object or an array of text validation constraint objects that complies with the following rules:
 
-- MUST comply with the [validation constraint object](/specifications/properties/validation/index.md#validation-constraint-object) rules.
+- MUST comply with the [validation constraint object](./index.md#validation-constraint-object) rules.
 - MAY have a `minLength` property. If present, the value of the property MUST be a nonnegative integer.
 - MAY have a `maxLength` property. If present, the value of the property MUST be a nonnegative integer.
 - MAY have a `pattern` property. If present, the value of the property MUST be a string representing a valid JavaScript regular expression as defined in [ECMA 262, Section 15.10](#ecma-262).

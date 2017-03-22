@@ -13,7 +13,7 @@ The `hints` property of a specification describes the meaning of a value.
 - The `hints` property is REQUIRED when referring to a value that does not have its own `spec` property. Otherwise, the `hints` property is OPTIONAL.
 - MUST be an array of strings.
 - MUST be ordered from more specific to less specific.
-- SHOULD end with a [base hint](/#base-hint).
+- SHOULD end with a [base hint](../../../#base-hint).
 
 ## Example
 
@@ -47,7 +47,7 @@ None
 
 - The user agent MUST process hints in order from more specific to less specific. The user agent MUST find the most specific hint that it understands and process the value based on that understanding.
 - If the user agent does not understand any hints it SHOULD ignore the value.
-- SHOULD understand all of the [base hints](/#base-hint).
+- SHOULD understand all of the [base hints](../../../#base-hint).
 
 ## User Agent Considerations
 
