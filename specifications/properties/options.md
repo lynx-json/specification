@@ -156,9 +156,9 @@ None
 
 An "option" is defined as a value that is described by a hint matching the most specific hint describing the input value.
 
-- When finding the value identified by the `options` property, the user agent MUST use the [process for finding values](/processes/finding_values.md).
+- When finding the value identified by the `options` property, the user agent MUST use the [process for finding values](../../processes/finding_values.md).
 - For the value identified by the `options` property, the user agent MUST identify the options in the value (including the value itself).
-- The user agent MUST provide the user with a control to select and deselect each identified option. Starting from the option and then its ancestors, the first value that is described by a specification with an [`option` property](/specifications/properties/option.md) MUST be the control.
+- The user agent MUST provide the user with a control to select and deselect each identified option. Starting from the option and then its ancestors, the first value that is described by a specification with an [`option` property](./option.md) MUST be the control.
 - For multi-valued inputs, selecting an option adds the value to the input container and deselecting an option removes the value from the input container.
 
 ## User Agent Considerations

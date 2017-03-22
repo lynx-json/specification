@@ -21,7 +21,7 @@ None
 If the value is present, it must comply with the following rules:
 
 - MUST be an object.
-- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](/realm/).
+- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](../../../realm/).
 - MAY contain other properties.
 
 ## Examples
@@ -53,7 +53,7 @@ None
 
 ## Authoring Considerations
 
-A form should contain at least one value described by a [`submit` hint](/specifications/properties/hints/submit.md).
+A form should contain at least one value described by a [`submit` hint](./submit.md).
 
 ## User Agent Rules
 

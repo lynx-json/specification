@@ -19,29 +19,29 @@ We would like to thank the following people for their contributions to this docu
 
 ## Conventions Used in This Document
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](/references/#rfc-2119).
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](./references/index.md#rfc-2119).
 
 ## Terminology
 
 ### JSON
 
-Refers to the media type JSON as defined in [RFC 4627](/references/#rfc-4627).
+Refers to the media type JSON as defined in [RFC 4627](./references/index.md#rfc-4627).
 
 ### URI
 
-Refers to a URI as defined in [RFC 3986](/references/#rfc-3986).
+Refers to a URI as defined in [RFC 3986](./references/index.md#rfc-3986).
 
 ### URL
 
-Refers to a URL as defined in [RFC 3986](/references/#rfc-3986).
+Refers to a URL as defined in [RFC 3986](./references/index.md#rfc-3986).
 
 ### URN
 
-Refers to a URN as defined in [RFC 3986](/references/#rfc-3986).
+Refers to a URN as defined in [RFC 3986](./references/index.md#rfc-3986).
 
 ### Media Type Name
 
-Refers to a media type name as defined in [RFC 6838](/references/#rfc-6838).
+Refers to a media type name as defined in [RFC 6838](./references/index.md#rfc-6838).
 
 ### Base Hint
 
@@ -53,11 +53,11 @@ The conveyance of a value to a user in a manner appropriate for the user agent a
 
 ### Resource
 
-See Section 5.2.1.1 "Resources and Resource Identifiers" in the [Fielding Dissertation](/references/#fielding-dissertation).
+See Section 5.2.1.1 "Resources and Resource Identifiers" in the [Fielding Dissertation](./references/index.md#fielding-dissertation).
 
 ### Representation
 
-See Section 5.2.1.2 "Representations" in the [Fielding Dissertation](/references/#fielding-dissertation).
+See Section 5.2.1.2 "Representations" in the [Fielding Dissertation](./references/index.md#fielding-dissertation).
 
 ## Compliance
 
@@ -68,7 +68,7 @@ An implementation is "non-compliant" if it fails to satisfy one or more of the M
 ### base
 
 - The parameter is OPTIONAL.
-- If present, its value MUST be an absolute URI to be used for relative URI resolution. For more information, see [Section 5.1.2 "Base URI from the Encapsulating Entity" in RFC 3986](/references/#rfc-3986).
+- If present, its value MUST be an absolute URI to be used for relative URI resolution. For more information, see [Section 5.1.2 "Base URI from the Encapsulating Entity" in RFC 3986](./references/index.md#rfc-3986).
 
 #### Example
 
@@ -86,7 +86,7 @@ Content-Type: application/lynx+json;base="http://example.com/greetings/hello-wor
 ### realm
 
 - The parameter is OPTIONAL.
-- If present, its value MUST comply with the rules defined for [Realm URI](/realm/).
+- If present, its value MUST comply with the rules defined for [Realm URI](../realm/index.md).
 
 #### Example
 
@@ -127,4 +127,4 @@ The registration status of this media type is as follows:
 
 ## Documents
 
-While a JSON document may begin with an object or an array, a Lynx document MUST begin with a [value/spec pair](/content/).
+While a JSON document may begin with an object or an array, a Lynx document MUST begin with a [value/spec pair](./content/index.md).
