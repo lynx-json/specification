@@ -86,7 +86,7 @@ Content-Type: application/lynx+json;base="http://example.com/greetings/hello-wor
 ### realm
 
 - The parameter is OPTIONAL.
-- If present, its value MUST comply with the rules defined for [Realm URI](../realm/index.md).
+- If present, its value MUST comply with the rules defined for [Realm URI](./realm/index.md).
 
 #### Example
 
