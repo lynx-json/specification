@@ -24,7 +24,9 @@ If the value is present, it must comply with the following rules:
 - MUST have an `action` property whose value is a valid [URI](../../../#uri).
 - MAY have a `method` property indicating the protocol method used to submit the form data.
 - MAY have an `enctype` property indicating how the form data is to be encoded. If not present, the default value is `application/x-www-form-urlencoded`.
-- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](../../../realm/).
+- MAY have a `type` property whose value must be a valid 
+  [media type name](../../../references/#rfc-6838) to indicate the expected 
+  media type of the content.
 - MAY have a `rel` property whose value specifies the relationship between the document containing the submit and the destination resource, as described in [RFC 5988](../../../references/index.md#rfc-5988).
 - MAY have a `send` property whose value must be "change", indicating that the user agent should invoke the submit on behalf of the user when the user changes an input value.
 - MAY contain other properties.
