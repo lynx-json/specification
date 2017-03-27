@@ -21,7 +21,6 @@ None
 If the value is present, it must comply with the following rules:
 
 - MUST be an object.
-- MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](../../../realm/).
 - MAY contain other properties.
 
 ## Examples
