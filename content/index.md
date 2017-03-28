@@ -20,6 +20,7 @@ A Lynx document MUST start with a value/spec pair. If a value/spec pair is a doc
 - it MAY have a `base` property. If present, the value MUST be an absolute URI to be used to represent the URI of the document for relative URI resolution. For more information, see [Section 5.1.1 "Base URI Embedded in Content" in RFC 3986](../references/index.md#rfc-3986).
 - it MAY have a `focus` property. If present, its value MUST be the property name of the value that receives focus
 when the document is displayed to the user.
+- it MAY have a `context` property. If present, its value MUST be an absolute URI representing either the realm or the content location of a document that must still be displayed when displaying this document.
 
 If the value of the `value` property is an object, the value/spec pair MAY be condensed by
 replacing the `value` property with all of the properties of the object.
@@ -66,3 +67,5 @@ If the `spec` property value is a specification URL, then the user agent MUST fe
 If the user agent encounters a relative URI it MUST resolve an absolute URI using the process defined in [Section 5 "Reference Resolution" in RFC 3986](../references/index.md#rfc-3986). For example, the `spec` property in the document above would resolve to `http://www.example.com/specs/movies/title`.
 
 When finding the value identified by the `focus` property, the user agent MUST use the [process for finding values](../processes/finding_values.md).
+
+If the document has a `context` property, the user agent MUST NOT display the document unless a document with a `realm` or content location equal to `context` is currently being displayed.
