@@ -14,7 +14,7 @@ To prepare a form data set:
 For each _input_ in _inputs_:
 
 - Let _result_ be a tuple having _name_ and _value_ components.
-  - Let _name_ be the value of the _input_ specification property's `name` property, if it exists. Otherwise, let _name_ be the `name` of the input value, if it exists. Otherwise, let _name_ be the `name` of the input value's first named ancestor.
+  - Let _name_ be the value of the _input_ specification property's value, if it is a string. Otherwise, let _name_ be the `name` of the input value, if it exists. Otherwise, repeat the process for each ancestor until _name_ has been resolved.
   - Let _value_ be a tuple having _data_ and _type_ components.
     - For `text` inputs, let _data_ be the value's JSON value (as defined in [RFC 4627, Section 2.1](../references/index.md#rfc-4627)) if the value is not `null` or `undefined`; otherwise, let _data_ be an empty string. Let _type_ be an empty string.
     - For `content` inputs, let _data_ and _type_ be the value of the `content` value's `data` and `type` properties.

@@ -14,7 +14,6 @@ The `input` property is OPTIONAL. If present, its value:
 
 - MAY be `true`.
 - MAY be a string to indicate the name of the form data value.
-- MAY be an object with a `name` property whose value MUST be a string to indicate the name of the form data value.
 
 ## Examples
 
@@ -45,24 +44,6 @@ The `input` property is OPTIONAL. If present, its value:
       {
         "name": "rating",
         "input": "mpaa-rating",
-        "hints": [ "text" ]
-      }
-    ]
-  }
-}
-```
-
-```json
-{
-  "rating": "PG",
-  "spec": {
-    "hints": [ "form" ],
-    "children": [
-      {
-        "name": "rating",
-        "input": {
-          "name": "mpaa-rating"
-        },
         "hints": [ "text" ]
       }
     ]
