@@ -13,6 +13,7 @@
         * [Label](specifications/properties/hints/label.md)
         * [Content](specifications/properties/hints/content.md)
         * [Image](specifications/properties/hints/image.md)
+        * [Emblem](specifications/properties/hints/emblem.md)
       * Containers
         * [Container](specifications/properties/hints/container.md)
         * [Header](specifications/properties/hints/header.md)
