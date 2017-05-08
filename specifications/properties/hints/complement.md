@@ -11,6 +11,8 @@ A `complement` hint describes a value that is secondary in nature to the sibling
 ## Related Hints
 
 - `["complement", "container"]`
+- `["complement", "form"]`
+- `["complement", "content"]`
 
 ## Synonyms
 

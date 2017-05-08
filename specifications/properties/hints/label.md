@@ -12,7 +12,6 @@ A `label` hint describes a value that represents a distinguishing name for anoth
 
 - `[ "label", "text" ]`
 - `[ "label", "content" ]`
-- `[ "label", "container" ]`
 
 ## Synonyms
 
@@ -74,53 +73,6 @@ None
     },
     "firstName": {
       "value": "",
-      "spec": {
-        "hints": [
-          "text"
-        ],
-        "labeledBy": "label"
-      }
-    }
-  },
-  "spec": {
-    "hints": [ "container" ]
-  }
-}
-```
-
-### Container
-
-```json
-{
-  "value": {
-    "label": {
-      "value": {
-        "heading": {
-          "value": "The Hateful Eight",
-          "spec": {
-            "hints": [ "text" ]
-          }
-        },
-        "subHeading": {
-          "value": "No One Comes Up Here Without a Damn Good Reason",
-          "spec": {
-            "hints": [ "text" ]
-          }
-        }
-      },
-      "spec": {
-        "hints": [
-          "label",
-          "container"
-        ],
-        "children": [
-          { "name": "heading" },
-          { "name": "subHeading" }
-        ]
-      }
-    },
-    "synopsis": {
-      "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "spec": {
         "hints": [
           "text"
