@@ -47,7 +47,7 @@ None
 
 - If `hidden`, the user agent MUST NOT display the value to the user.
 - If `visible`, the user agent MUST display the value to the user.
-- If `concealed`, the user agent SHOULD conceal the value. The value's first visible child value described by a `header` hint, if any, SHOULD remain visible. The user agent SHOULD provide the user with a control change the value's visibility to `revealed`.
+- If `concealed`, the user agent SHOULD conceal the value. The value's first visible child value described by a `header` hint, if any, SHOULD remain visible. The user agent SHOULD provide the user with a control change the value's visibility to `revealed`. If the value contains a child value described by a `header` hint, the user agent SHOULD not conceal its value.
 - If `revealed`, the user agent SHOULD display the value. The user agent SHOULD provide the user with a control change the value's visibility to `concealed`.
 - If the user agent does not understand the value of the `visibility` property, it MUST consider the value to be `visible`.
 
