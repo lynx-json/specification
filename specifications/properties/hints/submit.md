@@ -28,7 +28,9 @@ If the value is present, it must comply with the following rules:
   [media type name](../../../references/#rfc-6838) to indicate the expected 
   media type of the content.
 - MAY have a `rel` property whose value specifies the relationship between the document containing the submit and the destination resource, as described in [RFC 5988](../../../references/index.md#rfc-5988).
-- MAY have a `send` property whose value must be "change", indicating that the user agent should invoke the submit on behalf of the user when the user changes an input value.
+- MAY have a `send` property whose value MUST be one of the following:
+  - `change` indicating that the user agent should invoke the submit on behalf of the user when the user changes an input value, or
+  - `ready` indicating that the user agent should invoke the submit on behalf of the user when the submit is ready.
 - MAY contain other properties.
 
 ## Examples
@@ -63,7 +65,8 @@ None
 - The user agent MUST provide the user with a control to perform the submission.
 - If the `method` property is not present, then the user agent MUST submit the form data using the default retrieval action for the protocol (e.g. GET for HTTP).
 - When a `submit` control is invoked, the user agent MUST prepare a form data set, encode the form data set into a representation, and submit the representation, as defined in the [Process for Submitting Form Data](../../../processes/submitting_form_data.md) section.
-- If the `submit` control contains a `send` property, the user agent MUST submit the related form data when the value of an input changes if the validation state of the form is not invalid.
+- If the `submit` control contains a `send` property with a value of `change`, the user agent MUST submit the related form data when the value of an input changes if the validation state of the form is not invalid.
+- If the `submit` control contains a `send` property with a value of `ready`, the user agent MUST submit the related form data when the `submit` control is ready.
 
 ## User Agent Considerations
 
