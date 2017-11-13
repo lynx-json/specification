@@ -48,6 +48,8 @@ If the value has a `data` property:
 - if `type` is `application/json` or a variant of `application/json`, 
   `data` MAY be an object or an array; otherwise, `data` MUST be a string 
   representing the content to be embedded.
+- if `type` is `application/lynx+json`, and the embedded content does
+  not have its own `base` value, the value of `base` MUST be copied from the containing document.
 - if `data` is a string, MAY have an `encoding` property 
   whose value MUST be `utf-8` or `base64`. If not present, the `encoding` 
   is `utf-8`.
