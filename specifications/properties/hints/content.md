@@ -25,6 +25,9 @@ If the value is present, it must comply with the following rules:
 - SHOULD have an `alt` property for alternate text to be displayed if the content cannot be displayed or if the user cannot view it.
 - MAY have a `scope` property whose value specifies the content realm intended for display. If present, the value MUST comply with the rules defined for [realm URI](../../../realm/).
 - MAY have a `rel` property whose value specifies the relationship between the document containing the content and the destination resource, as described in [RFC 5988](../../../references/#rfc-5988).
+- MAY contain a `media` property whose value specifies the intended media target of the content. If present, the value MAY be one of the following: `screen`, `print`, or a qualified name (absolute URI); otherwise, its value MUST be presumed to be `screen`.
+- MAY contain a `sources` property whose value specifies an array of alternate `content`
+values.
 - MUST NOT contain any other properties that are described by a specification.
 - MAY contain other properties that are not described by a specification.
 
@@ -124,6 +127,59 @@ If the value has a `data` property:
 }
 ```
 
+#### Alternate Sources
+
+```json
+{
+  "data": "There's no crying in baseball! -- Tom Hanks, A League of Their Own",
+  "type": "text/plain",
+  "sources": [
+    {
+      "src": "./no-crying.mp4",
+      "type": "video/mp4",
+      "alt": "Video Clip: There's no crying in baseball!",
+      "spec": {
+        "hints": [ "content" ]
+      }
+    },
+    {
+      "src": "./no-crying.mov",
+      "type": "video/quicktime",
+      "alt": "Video Clip: There's no crying in baseball!",
+      "spec": {
+        "hints": [ "content" ]
+      }
+    }
+  ],
+  "spec": {
+    "hints": [ "content" ]
+  }
+}
+```
+
+#### With Media
+
+```json
+{
+  "src": "./receipt.lnx",
+  "type": "application/lynx+json",
+  "media": "screen",
+  "sources": [
+    {
+      "src": "./receipt.pdf",
+      "type": "application/pdf",
+      "media": "print",
+      "spec": {
+        "hints": [ "content" ]
+      }
+    }
+  ],
+  "spec": {
+    "hints": [ "content" ]
+  }
+}
+```
+
 ## Authoring Rules
 
 None
@@ -143,4 +199,7 @@ If the specification describing the value has an `input` property, the user agen
 
 ## User Agent Considerations
 
-The user agent must anticipate that a `content` object may contain no visible content.
+- The user agent must anticipate that a `content` object may contain no visible content.
+- If the content object contains a `sources` property, the user agent should choose the content
+most closely matching its goals. To do so, it may evaluate the available alternatives based on `type`,
+`hints`, `media`, and any other characteristics (image `width`, `height`, and `scale`, for example).
