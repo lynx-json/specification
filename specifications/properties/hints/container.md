@@ -17,6 +17,10 @@ None
 - `object`
 - `array`
 
+## Format Rules
+
+None
+
 ## Examples
 
 ### Object Value
