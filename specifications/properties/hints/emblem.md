@@ -13,6 +13,10 @@ An `emblem` hint describes a value providing a symbolic representation of anothe
 - `[ "emblem", "text" ]`
 - `[ "emblem", "content" ]`
 
+## Synonyms
+
+None
+
 ## Format Rules
 
 None
