@@ -14,8 +14,7 @@ None
 
 ## Synonyms
 
-- `object`
-- `array`
+None
 
 ## Format Rules
 
@@ -85,5 +84,5 @@ None
 
 ## User Agent Considerations
 
-- The user agent must anticipate that a container may contain simple values, container values, or a combination of both.
-- A user agent must anticipate that a value described by a `container` hint may contain any length and combination of values, including repeated values.
+- The user agent must anticipate that a form may contain simple values, container values, or a combination of both.
+- A user agent must anticipate that a value described by a `form` hint may contain any length and combination of values, including repeated values.
