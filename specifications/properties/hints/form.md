@@ -14,16 +14,16 @@ None
 
 ## Synonyms
 
-None
+- `object`
+- `array`
 
 ## Format Rules
 
-If the value is present, it must comply with the following rules:
-
-- MUST be an object.
-- MAY contain other properties.
+None
 
 ## Examples
+
+### Object Value
 
 ```json
 {
@@ -46,6 +46,31 @@ If the value is present, it must comply with the following rules:
 }
 ```
 
+### Array Value
+
+```json
+{
+  "value": [
+    {
+      "value": "Add a Comment",
+      "spec": { 
+        "hints": [ "label", "text"]
+      }
+    },
+    {
+      "value": null,
+      "spec": {
+        "hints": [ "text" ],
+        "input": "comment"
+      }
+    }
+  ],  
+  "spec": {
+    "hints": [ "form" ]
+  }
+}
+```
+
 ## Authoring Rules
 
 None
@@ -60,5 +85,5 @@ None
 
 ## User Agent Considerations
 
-- The user agent must anticipate that a value described by a `form` hint may not contain visible content.
-- The user agent must anticipate that a value described by a `form` hint may contain other properties that are also described by a specification.
+- The user agent must anticipate that a container may contain simple values, container values, or a combination of both.
+- A user agent must anticipate that a value described by a `container` hint may contain any length and combination of values, including repeated values.
