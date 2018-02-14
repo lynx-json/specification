@@ -27,7 +27,7 @@ If the value is present, it must comply with the following rules:
 - MAY have a `rel` property whose value specifies the relationship between the document containing the content and the destination resource, as described in [RFC 5988](../../../references/#rfc-5988).
 - MAY contain a `media` property whose value specifies the intended media target of the content. If present, the value MAY be one of the following: `screen`, `print`, or a qualified name (absolute URI); otherwise, its value MUST be presumed to be `screen`.
 - MAY contain a `sources` property whose value specifies an array of alternate `content`
-values ordered from more preferred to less preferred.
+values.
 - MUST NOT contain any other properties that are described by a specification.
 - MAY contain other properties that are not described by a specification.
 
@@ -199,6 +199,7 @@ If the specification describing the value has an `input` property, the user agen
 
 ## User Agent Considerations
 
-- The user agent must anticipate that a value described by a `content` hint may contain no visible content.
-- If a value described by a `content` hint contains a `sources` property, the user agent should display the content from the `sources` property value most closely matching its goals. To do so, the user agent may evaluate the available alternatives in order based on `type`,
-`hints`, `media`, and any other characteristics (image `width`, `height`, and `scale`, for example). If the user agent cannot display any alternates from the `sources` property value, the user agent should display the value described by a `content` hint.
+- The user agent must anticipate that a `content` object may contain no visible content.
+- If the content object contains a `sources` property, the user agent should choose the content
+most closely matching its goals. To do so, it may evaluate the available alternatives based on `type`,
+`hints`, `media`, and any other characteristics (image `width`, `height`, and `scale`, for example).
