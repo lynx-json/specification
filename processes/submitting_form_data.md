@@ -71,7 +71,6 @@ If the method is `POST`, `PUT`, or another method that supports an entity-body, 
 - Let _result_ be the encoded form data set.
 - Let _method_ be the `submit` value's `method` property value.
 - Let _URL_ be the submit value's `action` property.
-- Let the URL's _query component_ be empty.
 - Send an HTTP message, let its method be _method_, let its retrieval URL be _URL_, let its "Content-Type" header be the content type of _result_, and let its entity body be _result_.
 
 ### Other Schemes
