@@ -35,7 +35,7 @@ values.
 
 If the value has an `src` property:
 
-- `src` MUST be a valid [URI](../../../#uri).
+- `src` MUST be a valid [URI](../../../#uri) or `null`.
 - MAY have a `type` property whose value must be a valid 
   [media type name](../../../references/#rfc-6838) to indicate the expected 
   media type of the content.
