@@ -25,10 +25,10 @@ If the value is present, it must comply with the following rules:
   for [realm URI](../../../realm/).
 - MAY have a `primaryColor` property, whose value describes the primary color
   to be used for styling documents in the banner's realm. If present, the value
-  MUST be a six-digit, hexadecimal web color.
+  MUST be a six-digit, [hexadecimal web color](../../references/index.md#rfc-3986).
 - MAY have a `secondaryColor` property, whose value describes the secondary
   color to be used for styling documents in the banner's realm. If present, the
-  value MUST be a six-digit, hexadecimal web color.
+  value MUST be a six-digit, [hexadecimal web color](../../references/index.md#rfc-3986).
 
 ## Example
 
@@ -73,4 +73,4 @@ None
 
 ## User Agent Considerations
 
-None
+The user agent should consider using the primary and secondary colors to display documents within the realm specified by the `for` property. In particular, the user agent may display the banner itself with a background color matching its `primaryColor`.
