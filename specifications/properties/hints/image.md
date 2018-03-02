@@ -65,21 +65,21 @@ an actual width and height of 200px. If not present, the value MUST be presumed 
     "height": 400,
     "sources": [
       {
-        "src": "http://www.fillmurray.com/g/600/800",
-        "alt": "Picture of Bill Murray",
-        "width": 300,
-        "height": 400,
-        "scale": 2,
-        "spec": {
-          "hints": [ "image", "content"]
-        }
-      },
-      {
         "src": "http://www.fillmurray.com/g/900/1200",
         "alt": "Picture of Bill Murray",
         "width": 300,
         "height": 400,
         "scale": 3,
+        "spec": {
+          "hints": [ "image", "content"]
+        }
+      },
+      {
+        "src": "http://www.fillmurray.com/g/600/800",
+        "alt": "Picture of Bill Murray",
+        "width": 300,
+        "height": 400,
+        "scale": 2,
         "spec": {
           "hints": [ "image", "content"]
         }
