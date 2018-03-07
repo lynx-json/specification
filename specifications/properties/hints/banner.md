@@ -25,10 +25,10 @@ If the value is present, it must comply with the following rules:
   for [realm URI](../../../realm/).
 - MAY have a `primaryColor` property, whose value describes the primary color
   to be used for styling documents in the banner's realm. If present, the value
-  MUST be a six-digit, [hexadecimal web color](../../references/index.md#rfc-3986).
+  MUST be a six-digit, [hexadecimal web color](../../../references/index.md#css).
 - MAY have a `secondaryColor` property, whose value describes the secondary
   color to be used for styling documents in the banner's realm. If present, the
-  value MUST be a six-digit, [hexadecimal web color](../../references/index.md#rfc-3986).
+  value MUST be a six-digit, [hexadecimal web color](../../../references/index.md#css).
 
 ## Example
 
