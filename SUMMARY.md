@@ -24,6 +24,7 @@
         * [Table](specifications/properties/hints/table.md)
         * [Card](specifications/properties/hints/card.md)
         * [Form](specifications/properties/hints/form.md)
+        * [Banner](specifications/properties/hints/banner.md)
         * [Marker](specifications/properties/hints/marker.md)
       * Connections
         * [Link](specifications/properties/hints/link.md)

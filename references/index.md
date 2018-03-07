@@ -35,3 +35,7 @@ ECMA, "[ECMAScript® Language Specification](http://www.ecma-international.org/e
 ## HTML
 
 "[HTML 5: A vocabulary and associated APIs for HTML and XHTML](http://www.w3.org/TR/html5/)", W3C, October 2014
+
+## CSS
+
+"[CSS Color Module](https://www.w3.org/TR/css-color-4/#hex-notation or here https://drafts.csswg.org/css-color/#hex-notation)", W3C, July 2016
