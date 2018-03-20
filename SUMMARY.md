@@ -14,6 +14,7 @@
         * [Content](specifications/properties/hints/content.md)
         * [Image](specifications/properties/hints/image.md)
         * [Emblem](specifications/properties/hints/emblem.md)
+        * [Stylized Text](specifications/properties/hints/stylized-text.md)
       * Containers
         * [Container](specifications/properties/hints/container.md)
         * [Header](specifications/properties/hints/header.md)
