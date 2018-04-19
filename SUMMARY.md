@@ -21,6 +21,7 @@
         * [Footer](specifications/properties/hints/footer.md)
         * [Complement](specifications/properties/hints/complement.md)
         * [Group](specifications/properties/hints/group.md)
+        * [Set](specifications/properties/hints/set.md)
         * [List](specifications/properties/hints/list.md)
         * [Table](specifications/properties/hints/table.md)
         * [Card](specifications/properties/hints/card.md)
