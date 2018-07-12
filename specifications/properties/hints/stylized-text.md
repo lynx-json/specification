@@ -1,4 +1,4 @@
-# Status Text Hint
+# Stylized Text Hint
 
 ## Name
 
