@@ -42,6 +42,8 @@
     * [Submitter](specifications/properties/submitter.md)
     * [Options](specifications/properties/options.md)
     * [Option](specifications/properties/option.md)
+    * [Cohesion](specifications/properties/cohesion.md)
+    * [Expanse](specifications/properties/expanse.md)
 * [Realm URI](realm/index.md)
 * [User Agent Processes](processes/index.md)
   * [Finding Values by Property Name](processes/finding_values.md)
