@@ -11,7 +11,8 @@ The `expanse` property describes the anticipated space necessary to display a va
 ## Format Rules
 
 - The `expanse` property is OPTIONAL. If present, its value MUST be a positive
-  integer.
+  integer. If an `expanse` value is present, all siblings SHOULD also
+  provide an `expanse` value. If they do not, the default value is 1.
 
 ## Example
 
