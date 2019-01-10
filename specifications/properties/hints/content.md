@@ -23,7 +23,7 @@ If the value is present, it must comply with the following rules:
 - MUST be an object.
 - MAY have an `src` property for remote content or a `data` property for inline content.
 - SHOULD have an `alt` property for alternate text to be displayed if the content cannot be displayed or if the user cannot view it.
-- MAY have a `scope` property whose value specifies the content realm or URL(../../../#url) intended for display. If present, the value MUST be a valid [URI](../../../#uri).
+- MAY have a `scope` property whose value specifies the content realm or [URL](../../../#url) intended for display. If present, the value MUST be a valid [URI](../../../#uri).
 - MAY have a `rel` property whose value specifies the relationship between the document containing the content and the destination resource, as described in [RFC 5988](../../../references/#rfc-5988).
 - MAY contain a `media` property whose value specifies the intended media target of the content. If present, the value MAY be one of the following: `screen`, `print`, or a qualified name (absolute URI); otherwise, its value MUST be presumed to be `screen`.
 - MAY contain a `sources` property whose value specifies an array of preferred alternative `content` values ordered from more preferred to less preferred.
