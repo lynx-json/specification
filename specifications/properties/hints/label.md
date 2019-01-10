@@ -97,10 +97,7 @@ None
 
 ## User Agent Rules
 
-The user agent should consider the text content of the value described by the `label` hint to be the distinguishing name. For example, in the "Container" section above, the user agent would consider the distinguishing name to be:
-
-  The Hateful Eight  
-  No One Comes Up Here Without a Damn Good Reason
+None
 
 ## User Agent Considerations
 
