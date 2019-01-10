@@ -1,0 +1,977 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Content · Lynx JSON Media Type</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../values/" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Content
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../values/">
+            
+                <a href="../values/">
+            
+                    
+                    Values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../specifications/">
+            
+                <a href="../specifications/">
+            
+                    
+                    Specifications
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../specifications/properties/">
+            
+                <a href="../specifications/properties/">
+            
+                    
+                    Properties
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../specifications/properties/visibility.html">
+            
+                <a href="../specifications/properties/visibility.html">
+            
+                    
+                    Visibility
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../specifications/properties/name.html">
+            
+                <a href="../specifications/properties/name.html">
+            
+                    
+                    Name
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../specifications/properties/hints/">
+            
+                <a href="../specifications/properties/hints/">
+            
+                    
+                    Hints
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.3.1" >
+            
+                <span>
+            
+                    
+                    Content
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.3.1.1" data-path="../specifications/properties/hints/text.html">
+            
+                <a href="../specifications/properties/hints/text.html">
+            
+                    
+                    Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.1.2" data-path="../specifications/properties/hints/line.html">
+            
+                <a href="../specifications/properties/hints/line.html">
+            
+                    
+                    Line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.1.3" data-path="../specifications/properties/hints/label.html">
+            
+                <a href="../specifications/properties/hints/label.html">
+            
+                    
+                    Label
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.1.4" data-path="../specifications/properties/hints/content.html">
+            
+                <a href="../specifications/properties/hints/content.html">
+            
+                    
+                    Content
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.1.5" data-path="../specifications/properties/hints/image.html">
+            
+                <a href="../specifications/properties/hints/image.html">
+            
+                    
+                    Image
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.1.6" data-path="../specifications/properties/hints/emblem.html">
+            
+                <a href="../specifications/properties/hints/emblem.html">
+            
+                    
+                    Emblem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.1.7" data-path="../specifications/properties/hints/stylized-text.html">
+            
+                <a href="../specifications/properties/hints/stylized-text.html">
+            
+                    
+                    Stylized Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2" >
+            
+                <span>
+            
+                    
+                    Containers
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.3.2.1" data-path="../specifications/properties/hints/container.html">
+            
+                <a href="../specifications/properties/hints/container.html">
+            
+                    
+                    Container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.2" data-path="../specifications/properties/hints/header.html">
+            
+                <a href="../specifications/properties/hints/header.html">
+            
+                    
+                    Header
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.3" data-path="../specifications/properties/hints/footer.html">
+            
+                <a href="../specifications/properties/hints/footer.html">
+            
+                    
+                    Footer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.4" data-path="../specifications/properties/hints/complement.html">
+            
+                <a href="../specifications/properties/hints/complement.html">
+            
+                    
+                    Complement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.5" data-path="../specifications/properties/hints/group.html">
+            
+                <a href="../specifications/properties/hints/group.html">
+            
+                    
+                    Group
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.6" data-path="../specifications/properties/hints/set.html">
+            
+                <a href="../specifications/properties/hints/set.html">
+            
+                    
+                    Set
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.7" data-path="../specifications/properties/hints/list.html">
+            
+                <a href="../specifications/properties/hints/list.html">
+            
+                    
+                    List
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.8" data-path="../specifications/properties/hints/table.html">
+            
+                <a href="../specifications/properties/hints/table.html">
+            
+                    
+                    Table
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.9" data-path="../specifications/properties/hints/card.html">
+            
+                <a href="../specifications/properties/hints/card.html">
+            
+                    
+                    Card
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.10" data-path="../specifications/properties/hints/form.html">
+            
+                <a href="../specifications/properties/hints/form.html">
+            
+                    
+                    Form
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.11" data-path="../specifications/properties/hints/banner.html">
+            
+                <a href="../specifications/properties/hints/banner.html">
+            
+                    
+                    Banner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.2.12" data-path="../specifications/properties/hints/marker.html">
+            
+                <a href="../specifications/properties/hints/marker.html">
+            
+                    
+                    Marker
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.3" >
+            
+                <span>
+            
+                    
+                    Connections
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.3.3.1" data-path="../specifications/properties/hints/link.html">
+            
+                <a href="../specifications/properties/hints/link.html">
+            
+                    
+                    Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3.3.2" data-path="../specifications/properties/hints/submit.html">
+            
+                <a href="../specifications/properties/hints/submit.html">
+            
+                    
+                    Submit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="../specifications/properties/children.html">
+            
+                <a href="../specifications/properties/children.html">
+            
+                    
+                    Children
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.5" data-path="../specifications/properties/labeled-by.html">
+            
+                <a href="../specifications/properties/labeled-by.html">
+            
+                    
+                    Labeled By
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.6" data-path="../specifications/properties/input.html">
+            
+                <a href="../specifications/properties/input.html">
+            
+                    
+                    Input
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.7" data-path="../specifications/properties/validation/">
+            
+                <a href="../specifications/properties/validation/">
+            
+                    
+                    Validation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.7.1" data-path="../specifications/properties/validation/required.html">
+            
+                <a href="../specifications/properties/validation/required.html">
+            
+                    
+                    Required
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.7.2" data-path="../specifications/properties/validation/text.html">
+            
+                <a href="../specifications/properties/validation/text.html">
+            
+                    
+                    Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.7.3" data-path="../specifications/properties/validation/number.html">
+            
+                <a href="../specifications/properties/validation/number.html">
+            
+                    
+                    Number
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.7.4" data-path="../specifications/properties/validation/content.html">
+            
+                <a href="../specifications/properties/validation/content.html">
+            
+                    
+                    Content
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.8" data-path="../specifications/properties/submitter.html">
+            
+                <a href="../specifications/properties/submitter.html">
+            
+                    
+                    Submitter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.9" data-path="../specifications/properties/options.html">
+            
+                <a href="../specifications/properties/options.html">
+            
+                    
+                    Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.10" data-path="../specifications/properties/option.html">
+            
+                <a href="../specifications/properties/option.html">
+            
+                    
+                    Option
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.11" data-path="../specifications/properties/cohesion.html">
+            
+                <a href="../specifications/properties/cohesion.html">
+            
+                    
+                    Cohesion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.12" data-path="../specifications/properties/expanse.html">
+            
+                <a href="../specifications/properties/expanse.html">
+            
+                    
+                    Expanse
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../realm/">
+            
+                <a href="../realm/">
+            
+                    
+                    Realm URI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../processes/">
+            
+                <a href="../processes/">
+            
+                    
+                    User Agent Processes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../processes/finding_values.html">
+            
+                <a href="../processes/finding_values.html">
+            
+                    
+                    Finding Values by Property Name
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../processes/displaying_content.html">
+            
+                <a href="../processes/displaying_content.html">
+            
+                    
+                    Displaying Content
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../processes/submitting_form_data.html">
+            
+                <a href="../processes/submitting_form_data.html">
+            
+                    
+                    Submitting Form Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../references/">
+            
+                <a href="../references/">
+            
+                    
+                    References
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Content</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="content">Content</h1>
+<p>The content of all documents defined by this media type are extensions of <a href="..#json">JSON</a> and MUST comply with the rules of that media type. All usages of the JSON keywords &quot;string&quot;, &quot;number&quot;, &quot;object&quot;, &quot;array&quot;, &quot;true&quot;, &quot;false&quot;, &quot;null&quot;, and &quot;value&quot; refer to the concepts in the JSON specification unless otherwise stated. The word &quot;property&quot; is used to refer to the concept of &quot;pair&quot;, &quot;name/value pair&quot;, or &quot;member&quot; in the JSON specification. The word &quot;integer&quot; is used to refer to a JSON &quot;number&quot; with no fractional part. The phrase &quot;container value&quot; is used to refer to objects and arrays. The phrase &quot;simple value&quot; is used to refer to strings, numbers, <code>true</code>, <code>false</code>, or <code>null</code>.</p>
+<h2 id="valuespec-pairs">Value/Spec Pairs</h2>
+<p>Lynx is built on a simple JSON object that conveys a value (data) and a specification (metadata). This object is called a &quot;value/spec pair&quot;. A user agent uses the information conveyed in the value/spec pair to effectively display the information to a user.</p>
+<h2 id="format-rules">Format Rules</h2>
+<p>A value/spec pair:</p>
+<ul>
+<li>MUST be a JSON object</li>
+<li>MUST have a <code>value</code> property whose value MAY be any <a href="..#json">JSON</a> value.</li>
+<li>MUST have a <code>spec</code> property whose value MUST be a <a href="../specifications">specification object</a> or a URL to a remote specification object.</li>
+</ul>
+<p>A Lynx document MUST start with a value/spec pair. If a value/spec pair is a document:</p>
+<ul>
+<li>it SHOULD have a <code>realm</code> property. If present, the value MUST comply with the rules defined for <a href="../realm">realm URI</a>.</li>
+<li>it MAY have a <code>base</code> property. If present, the value MUST be an absolute URI to be used to represent the URI of the document for relative URI resolution. For more information, see <a href="../references/#rfc-3986">Section 5.1.1 &quot;Base URI Embedded in Content&quot; in RFC 3986</a>.</li>
+<li>it MAY have a <code>focus</code> property. If present, its value MUST be the property name of the value that receives focus
+when the document is displayed to the user.</li>
+</ul>
+<p>If the value of the <code>value</code> property is an object, the value/spec pair MAY be condensed by
+replacing the <code>value</code> property with all of the properties of the object.</p>
+<h2 id="examples">Examples</h2>
+<h3 id="valuespec-pair">Value/Spec Pair</h3>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;value&quot;</span>: {
+    <span class="hljs-string">&quot;title&quot;</span>: <span class="hljs-string">&quot;Groundhog Day&quot;</span>,
+    <span class="hljs-string">&quot;rating&quot;</span>: <span class="hljs-number">8.1</span>
+  },
+  <span class="hljs-string">&quot;spec&quot;</span>: <span class="hljs-string">&quot;http://www.example.com/specs/movie-summary&quot;</span>
+}
+</code></pre>
+<h3 id="condensed-valuespec-pair">Condensed Value/Spec Pair</h3>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;title&quot;</span>: <span class="hljs-string">&quot;Groundhog Day&quot;</span>,
+  <span class="hljs-string">&quot;rating&quot;</span>: <span class="hljs-number">8.1</span>,
+  <span class="hljs-string">&quot;spec&quot;</span>: <span class="hljs-string">&quot;http://www.example.com/specs/movie-summary&quot;</span>
+}
+</code></pre>
+<h3 id="document">Document</h3>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;base&quot;</span>: <span class="hljs-string">&quot;http://www.example.com/movies/what-about-bob/title&quot;</span>,
+  <span class="hljs-string">&quot;realm&quot;</span>: <span class="hljs-string">&quot;http://www.example.com/movies/titles&quot;</span>,
+  <span class="hljs-string">&quot;value&quot;</span>: <span class="hljs-string">&quot;What About Bob?&quot;</span>,
+  <span class="hljs-string">&quot;spec&quot;</span>: <span class="hljs-string">&quot;/specs/movies/title&quot;</span>
+}
+</code></pre>
+<h2 id="user-agent-rules">User Agent Rules</h2>
+<p>If the <code>spec</code> property value is a specification URL, then the user agent MUST fetch the remote specification object using the default retrieval action for the protocol (e.g. GET for HTTP).</p>
+<p>If the user agent encounters a relative URI it MUST resolve an absolute URI using the process defined in <a href="../references/#rfc-3986">Section 5 &quot;Reference Resolution&quot; in RFC 3986</a>. For example, the <code>spec</code> property in the document above would resolve to <code>http://www.example.com/specs/movies/title</code>.</p>
+<p>When finding the value identified by the <code>focus</code> property, the user agent MUST use the <a href="../processes/finding_values.html">process for finding values</a>.</p>
+<p>If a view that originated a request for content is no longer displayed, the user agent MUST NOT display the content resulting from the request.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../values/" class="navigation navigation-next " aria-label="Next page: Values">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Content","level":"1.2","depth":1,"next":{"title":"Values","level":"1.3","depth":1,"path":"values/index.md","ref":"values/index.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Lynx JSON Media Type","gitbook":">= 3.0.0"},"file":{"path":"content/index.md","mtime":"2019-01-10T15:10:43.042Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-10T18:21:52.690Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
